@@ -1,0 +1,36 @@
+# Site settings
+title: charlielee.uk
+author: Charlie Lee
+description: >
+  Charlie Lee is a British developer currently based at the University of Sheffield.
+  This website contains the projects, films and music he has created.
+footer_text: "&copy; 2016 Charlie Lee"
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: about.html
+- text: Projects
+  url: projects.html
+- text: Contact
+  url: contact.html
+permalink: /:year/:month/:title
+
+# Collections
+collections:
+  category_pages:
+    output: true
+    permalink: /category/:path/
+  feeds:
+    output: true
+    permalink: /feed/:path
+  projects:
+    output: true
+    permalink: /feed/:path
+
+# Build settings
+markdown: kramdown
+theme: charlie-lee-theme
+exclude:
+  - Gemfile
+  - Gemfile.lock
