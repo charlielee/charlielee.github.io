@@ -26,7 +26,7 @@ collections:
     permalink: /feed/:path
   projects:
     output: true
-    permalink: /feed/:path
+    permalink: /project/:path
 
 # Build settings
 markdown: kramdown
