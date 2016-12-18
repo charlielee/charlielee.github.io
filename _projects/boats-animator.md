@@ -2,8 +2,13 @@
 title: Boats Animator
 repository: https://github.com/BoatsAreRockable/boats-animator
 version: 0.7.3
-permalink: boats-animator
 layout: page
+redirect_from:
+- boatsanimator
+- boats-animator
+- boats-animator/
+- animator
+- animator/
 ---
 ## A free stop motion animation program
 

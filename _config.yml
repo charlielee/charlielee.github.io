@@ -36,3 +36,5 @@ exclude:
   - Gemfile.lock
   - deploy.bat
   - setup.bat
+gems:
+  - jekyll-redirect-from
