@@ -1,5 +1,2 @@
-cd _site
-git add --all
-git commit -a -m "Build website with Jekyll"
-git push -f
-cd ../
+git add _site && git commit -m "Update website build"
+git subtree push --prefix _site origin master
