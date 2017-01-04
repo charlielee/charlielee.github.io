@@ -1,7 +1,5 @@
 /*!
-  Main style sheet for COM1008 Assignment
-  Author: Charles Lee
-  Created: 09/11/16
+  Main style sheet for charlie-lee-theme
 */
 
 /* ================================
@@ -38,7 +36,7 @@
    -------------------------------- */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 p {
   line-height: 1.3em;
@@ -55,11 +53,6 @@ a, a:visited {
   color: rgb(11,114,132);
 }
 a:hover { color: rgb(4,81,94); }
-
-/* ===Headings=== */
-h1, h2 {
-  font-family: "Montserrat", sans-serif;
-}
 
 /* ===Elements that are only displayed when no CSS is avaliable=== */
 .alt {
@@ -155,23 +148,15 @@ aside ul {
 
 /* ===Global header===*/
 header {
-  background-color: rgb(0,83,133);
+  background-color: rgb(0,0,0);
 }
 
 /* ===Logo=== */
 #logo {
-  background-color: rgb(0,0,0);
-  font-family: 'Merriweather', serif;
   font-size: 1.5em;
   font-weight: 600;
   margin: 0;
   text-align: center;
-}
-#logo .fa-coffee::after {
-  /* Creates a space after the logo symbol relative to font-size */
-  color: transparent;
-  content: "-";
-  text-shadow: none;
 }
 #logo a:hover {
   background-color: rgb(30,30,30);
@@ -196,13 +181,36 @@ main header h1 {
 }
 
 /* ===Hero headers===*/
+.hero {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
 .hero div {
-  margin: 10% auto;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 .hero h1 {
+  background-color: transparent;
+  color: rgb(255,255,255);
   display: inline;
-  font-family: "Coming Soon", cursive;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
   white-space: pre-wrap;
+}
+.hero img {
+  width: 100%;
 }
 
 /* 1.4. NAVIGATION
@@ -251,6 +259,7 @@ nav li.highlight:nth-of-type(2n+2) a {
   padding: 10px;
   position: absolute;
   right: 0;
+  transform: rotate(90deg);
 }
 #mobile-menu-toggle:hover {
   color: rgb(212,212,212);
@@ -515,7 +524,7 @@ footer li:last-child:after {
     width: 100%;
   }
   article {
-    max-width: 900px;
+    max-width: 800px;
     padding: 0 20px;
   }
   article.with-sidebar {
@@ -552,15 +561,16 @@ footer li:last-child:after {
     max-width: 1200px;
   }
   main header h1 {
-    max-width: 900px;
+    max-width: 800px;
   }
 
   /* ===Hero headers===*/
-  .hero div {
-    max-width: 900px;
+  .hero {
+    max-height: 25em;
   }
   .hero h1 {
     font-size: 3.5em;
+    max-width: 800px;
   }
 
   /* 3.3. NAVIGATION
@@ -570,7 +580,7 @@ footer li:last-child:after {
      display: flex;
     /* Moves header contents onto one row */
     flex-flow: row wrap;
-    max-width: 900px;
+    max-width: 1200px;
   }
   nav ul, header nav ul.hidden {
     display: block;

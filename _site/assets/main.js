@@ -1,5 +1,5 @@
 /*!
-  JavaScript used on the entire website.
+  Main JavaScript file for charlie-lee-theme.
 */
 
 var mobileToggle = document.getElementById("mobile-menu-toggle"),
