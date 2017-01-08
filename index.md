@@ -3,4 +3,4 @@ title: Home
 layout: home
 collection: projects
 ---
-Hi I'm Charlie. Here is some of the stuff I've done:
+Hi I'm Charlie. Here's some stuff I've done...
