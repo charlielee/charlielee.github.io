@@ -359,22 +359,7 @@ footer li:last-child:after {
 .gallery a:active {
   opacity: 0.85;
 }
-.gallery a span {
-  background-color: rgb(0,171,202);
-  border-radius: 10px;
-  bottom: 0;
-  margin: 10px;
-  padding: 10px;
-  position: absolute;
-  right: 0;
-}
-.gallery a span:hover {
-  box-shadow: 0 0 10px 3px rgb(0,171,202);
-}
-.gallery a span::after {
-  content: " >";
-  vertical-align: middle;
-}
+
 /* Gallery items' color on hover switches between 3 colors */
 .gallery article:nth-of-type(3n+1) {
   background-color: rgb(33,123,22);
@@ -386,8 +371,7 @@ footer li:last-child:after {
   background-color: rgb(0,83,133);
 }
 .gallery article:hover:not(.cover) {
-  background-image: none !important;
-  box-shadow: none;
+  box-shadow: inset -1px 0 50px 1px rgb(222,222,222);
 }
 
 /* Background color of gallery items text switches between 3 colors */
