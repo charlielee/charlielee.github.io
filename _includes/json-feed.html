@@ -8,6 +8,7 @@
     "slug": "{{ post.slug }}",
     "url": "{{ post.url | absolute_url | replace: "/", "\/" }}",
     "title": "{{ post.title }}",
+    "title_plain": "{{ post.title | normalize_whitespace }}",
     "content": "{{ post.content | replace: '"', '\"' | replace: "\", "\\" | replace: "/", "\/" | normalize_whitespace }}",
     "excerpt": "<p>{{ post.excerpt | strip_html | normalize_whitespace }}</p>",
     "date": "{{ post.date }}",
