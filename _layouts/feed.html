@@ -1,0 +1,1 @@
+{% if page.type == "json" %}{% capture json %}{% include json-feed.html %}{% endcapture %}{{ json | normalize_whitespace }}{% endif %}

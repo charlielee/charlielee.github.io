@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      <header class="hero">
+        <div>
+          <h1>{{ content | strip_html }}</h1>
+        </div>
+        {% if page.img %}
+        <img src="{{ page.img }}">
+        {% else %}
+        <section style="height: 15em; width: 100%"></div>
+        {% endif %}
+      </header>
+
+      <div class="gallery cols-3">
+      {% if page.collection %}
+        {% assign items = site[page.collection] %}
+      {% else %}
+        {% assign items = site.posts %}
+      {% endif %}
+      {% for entry in items %}
+        <article>
+          <h2>{{ entry.title }}</h2>
+          <a href="{{ entry.url }}"><span>Read</span></a>
+        </article>
+      {% endfor %}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

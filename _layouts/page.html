@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      <header style="background-image: url('{{ page.img }}');">
+        <h1>
+          {% if page.title %} {{ page.title }}
+          {% else %} {{ site.title }}
+          {% endif %}
+        </h1>
+      </header>
+
+      <div>
+        <article>
+          {{content}}
+        </article>
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

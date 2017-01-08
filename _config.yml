@@ -30,11 +30,8 @@ collections:
 
 # Build settings
 markdown: kramdown
-theme: charlie-lee-theme
 exclude:
   - Gemfile
   - Gemfile.lock
-  - deploy.bat
-  - setup.bat
 gems:
   - jekyll-redirect-from

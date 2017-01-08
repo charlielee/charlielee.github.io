@@ -1,0 +1,613 @@
+/*!
+  Main style sheet for charlie-lee-theme
+*/
+
+/* ================================
+   0.0. CSS DIRECTORY
+   ================================
+
+   1.0. INITIAL BREAKPOINT (Smartphone portrait)
+        1.1. GENERAL
+        1.2. PRIMARY
+        1.3. HEADERS
+        1.4. NAVIGATION
+        1.5. FOOTER
+        1.6. HOMEPAGE GALLERY
+        1.7. BACKGROUND IMAGES
+
+   2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT (min-width: 500px)
+        2.1. PRIMARY
+        2.2. HEADERS
+        2.3. NAVIGATION
+        2.4. HOME PAGE GALLERY
+
+   3.0. DESKTOP BREAKPOINT (min-width: 768px)
+        3.1. PRIMARY
+        3.2. HEADERS
+        3.3. NAVIGATION
+        3.4. HOMEPAGE GALLERY
+*/
+
+/* ================================
+   1.0. INITIAL BREAKPOINT (Smartphone portrait)
+   ================================ */
+
+/* 1.1. GENERAL
+   -------------------------------- */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+p {
+  line-height: 1.3em;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+/* ===Links=== */
+a, a:visited {
+  color: rgb(11,114,132);
+}
+a:hover { color: rgb(4,81,94); }
+
+/* ===Elements that are only displayed when no CSS is avaliable=== */
+.alt {
+  display: none;
+}
+
+/* ===Forms===*/
+input, label, textarea {
+  box-sizing: border-box;
+  display: block;
+  margin: 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+textarea {
+  resize: vertical;
+}
+input[type="submit"] {
+  width: auto;
+}
+
+/* 1.2. PRIMARY
+   -------------------------------- */
+
+main div {
+  clear: both;
+  /* Prevents margin collapsing */
+  overflow: hidden;
+}
+.dark {
+  background-color: rgb(85,98,112);
+  color: rgb(255,255,255);
+}
+.notice {
+  background-color: rgb(215,18,139);
+  border-radius: 5px;
+  color: rgb(255,255,255);
+  padding: 10px 20px;
+}
+.hidden {
+  display: none;
+}
+
+/* ===Articles=== */
+article {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+article img {
+  box-shadow: 1px 0 10px 1px rgb(85,98,112);
+  margin: 1em 0;
+  width: 100%;
+}
+
+/* ===Articles with ".item" alternate between 3 different color accents=== */
+.item {
+  border-left: 5px solid rgb(0,0,0);
+  margin: 2em auto;
+}
+.item:nth-of-type(3n+1) {
+  border-color: rgb(33,123,22);
+}
+.item:nth-of-type(3n+2) {
+  border-color: rgb(215,18,139);
+}
+.item:nth-of-type(3n+3) {
+  border-color: rgb(0,83,133);
+}
+
+.item h2 {
+  margin-top: 0;
+}
+.item:nth-of-type(3n+1) h2 {
+  color: rgb(33,123,22);
+}
+.item:nth-of-type(3n+2) h2 {
+  color: rgb(215,18,139);
+}
+.item:nth-of-type(3n+3) h2 {
+  color: rgb(0,83,133);
+}
+
+/* ===Article sidebars===*/
+aside ul {
+  padding: 0;
+  color: rgb(85,98,112);
+  font-size: 0.9em;
+  list-style: none;
+}
+
+/* 1.3. HEADERS
+   -------------------------------- */
+
+/* ===Global header===*/
+header {
+  background-color: rgb(0,0,0);
+}
+
+/* ===Logo=== */
+#logo {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+#logo a:hover {
+  background-color: rgb(30,30,30);
+  text-decoration: none;
+}
+
+/* ===Page header=== */
+main header {
+  background-color: rgb(85,98,112);
+  background-position: center;
+  margin: 0 auto 1em auto;
+  overflow: hidden;
+}
+main header h1 {
+  background-color: rgba(255,255,255,0.85);
+  box-sizing: border-box;
+  font-size: 2em;
+  line-height: 1.6em;
+  margin: 10vh auto 0 auto;
+  padding: 0 10px;
+  text-shadow: none;
+}
+
+/* ===Hero headers===*/
+.hero {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.hero div {
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.hero h1 {
+  background-color: transparent;
+  color: rgb(255,255,255);
+  display: inline;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+  white-space: pre-wrap;
+}
+.hero img {
+  width: 100%;
+}
+
+/* 1.4. NAVIGATION
+   -------------------------------- */
+
+nav {
+  /* Center the nav bar */
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  flex: 1 100%;
+  list-style: none;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(255,255,255);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px rgb(40,40,40);
+  white-space: nowrap;
+}
+nav a:visited { color: rgb(255,255,255); }
+nav a:hover { color: rgb(212,212,212); }
+
+/* ===Highlighted nav items=== */
+nav li.highlight:nth-of-type(2n+1) a {
+  background-color: rgb(33,123,22);
+}
+nav li.highlight:nth-of-type(2n+2) a {
+  background-color: rgb(215,18,139);
+}
+
+/* ===Top navigation=== */
+#mobile-menu-toggle {
+  color: rgb(255,255,255);
+  font-size: 1.5em;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  transform: rotate(90deg);
+}
+#mobile-menu-toggle:hover {
+  color: rgb(212,212,212);
+  cursor: pointer;
+}
+header nav ul.hidden {
+  display: none;
+}
+
+/* 1.5. FOOTER
+   -------------------------------- */
+
+footer {
+  clear: both;
+  color: rgb(85,98,112);
+  font-size: 90%;
+  padding: 20px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer li {
+  display: inline;
+  list-style: none;
+}
+footer li:after {
+  /* Each footer element is seperated with a "|" */
+  content: "|";
+  padding: 0 10px;
+}
+footer li:last-child:after {
+  content: "";
+}
+
+/* 1.6. HOME PAGE GALLERY
+   -------------------------------- */
+
+.gallery {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px auto 0 auto;
+}
+
+/* Each gallery item is a article */
+.gallery article {
+  background-color: rgb(0,0,0);
+  background-position: center;
+  border-left-style: solid;
+  border-width: 5px;
+  box-shadow: inset -1px 0 50px 1px rgb(222,222,222);
+  box-sizing: border-box;
+  flex: 1 1 100%;
+  height: 150px;
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+/* Gallery item borders switch between 3 colors */
+.gallery article:nth-of-type(3n+1) {
+  border-color: rgb(33,123,22);
+}
+.gallery article:nth-of-type(3n+2) {
+  border-color: rgb(215,18,139);
+}
+.gallery article:nth-of-type(3n+3) {
+  border-color: rgb(0,83,133);
+}
+
+.gallery h2 {
+  box-sizing: border-box;
+  color: rgb(255,255,255);
+  display: inline;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.8;
+  padding: 7px 7px 7px 0;
+  text-shadow: 1px 1px rgb(40,40,40);
+  transition: background-color ease-out 0.2s;
+  vertical-align: top;
+  white-space: pre-wrap;
+}
+.gallery a {
+  color: rgb(255,255,255);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.gallery a:active {
+  opacity: 0.85;
+}
+.gallery a span {
+  background-color: rgb(0,171,202);
+  border-radius: 10px;
+  bottom: 0;
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+}
+.gallery a span:hover {
+  box-shadow: 0 0 10px 3px rgb(0,171,202);
+}
+.gallery a span::after {
+  content: " >";
+  vertical-align: middle;
+}
+/* Gallery items' color on hover switches between 3 colors */
+.gallery article:nth-of-type(3n+1) {
+  background-color: rgb(33,123,22);
+}
+.gallery article:nth-of-type(3n+2) {
+  background-color: rgb(215,18,139);
+}
+.gallery article:nth-of-type(3n+3) {
+  background-color: rgb(0,83,133);
+}
+.gallery article:hover:not(.cover) {
+  background-image: none !important;
+  box-shadow: none;
+}
+
+/* Background color of gallery items text switches between 3 colors */
+.gallery article:nth-of-type(3n+1) h2 {
+  background-color: rgb(33,123,22);
+}
+.gallery article:nth-of-type(3n+2) h2 {
+  background-color: rgb(215,18,139);
+}
+.gallery article:nth-of-type(3n+3) h2 {
+  background-color: rgb(0,83,133);
+}
+
+/* 1.7. BACKGROUND IMAGES
+   --------------------------------
+
+/* ===HOME PAGE=== */
+#welcome {
+  background-image: url("../img/welcome.jpg");
+}
+
+/* ===GAMES=== */
+#block-slider-3 {
+  background-image: url("../img/tea1.jpg");
+}
+#block-slider-3 {
+  background-image: url("../img/tea2.jpg");
+}
+#spot-difference {
+  background-image: url("../img/spot-the-difference.png");
+}
+#tic-tac-toe {
+  background-image: url("../img/tea1.jpg");
+}
+#cat-teapot {
+  background-image: url("../img/cat.jpg");
+}
+
+/* ===REVIEWS=== */
+#reviews {
+  background-image: url("../img/reviews.jpg");
+}
+
+/* ===ABOUT=== */
+#about {
+  background-color: rgb(202,135,26);
+  background-image: url("../img/checkers.jpg");
+}
+
+/* ===NEWS=== */
+#news {
+  background-image: url("../img/news.jpg");
+}
+
+/* ===CONTACT=== */
+#contact {
+  background-image: url("../img/contact.jpg");
+}
+
+/* ================================
+   2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT
+   ================================ */
+
+@media only screen and (min-width: 500px) {
+
+  /* 2.1. PRIMARY
+     -------------------------------- */
+
+  aside li {
+    display: inline-block;
+  }
+ aside li:after {
+    content: "|";
+    padding: 0 7px;
+  }
+  aside li:last-child:after {
+    content: "";
+  }
+
+  /* 2.2. HEADERS
+     -------------------------------- */
+
+  main header h1 {
+    font-size: 2.5em;
+  }
+
+  /* 2.3. NAVIGATION
+     -------------------------------- */
+
+  nav ul {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 10px;
+  }
+  nav li {
+    flex: 1;
+    margin: 0 10px 0 0;
+  }
+
+  /* ===Highlighted nav items=== */
+  nav li.highlight a {
+    border-radius: 5px;
+  }
+
+  /* ===Top navigation=== */
+  #mobile-menu-toggle {
+    display: none;
+  }
+
+  header nav ul.hidden {
+    display: flex;
+  }
+
+  /* 2.4. HOME PAGE GALLERY
+   -------------------------------- */
+
+  .gallery article {
+     height: 180px;
+    /* 2 columns in gallery */
+  }
+  .gallery.cols-2 article, .gallery.cols-3 article {
+     max-width: 49%;
+  }
+}
+
+/* ================================
+   3.0. DESKTOP BREAKPOINT
+   ================================ */
+
+@media only screen and (min-width: 768px) {
+
+  /* 3.1. PRIMARY
+   -------------------------------- */
+  article h2 {
+    width: 100%;
+  }
+  article {
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  article.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .with-sidebar section:last-child, .with-sidebar aside:last-child {
+    padding-left: 20px;
+  }
+
+  aside {
+    width: 250px;
+  }
+  aside li {
+    display: block;
+  }
+  aside li:after {
+    content: "";
+    padding: 0;
+  }
+  section {
+    flex: 1;
+  }
+
+  /* 3.2. HEADERS
+   -------------------------------- */
+
+  #logo {
+    font-size: 2em;
+  }
+
+  /* ===Page header=== */
+  main header {
+    max-width: 1200px;
+  }
+  main header h1 {
+    max-width: 800px;
+  }
+
+  /* ===Hero headers===*/
+  .hero {
+    max-height: 25em;
+  }
+  .hero h1 {
+    font-size: 3.5em;
+    max-width: 800px;
+  }
+
+  /* 3.3. NAVIGATION
+   -------------------------------- */
+
+  nav {
+     display: flex;
+    /* Moves header contents onto one row */
+    flex-flow: row wrap;
+    max-width: 1200px;
+  }
+  nav ul, header nav ul.hidden {
+    display: block;
+    flex: 1;
+    text-align: right;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+  nav li:last-of-type {
+    margin: 0;
+  }
+
+  /* ===Top navigation===*/
+  header nav ul {
+    display: block;
+  }
+
+  /* 3.4. HOME PAGE GALLERY
+   -------------------------------- */
+
+  .gallery {
+    max-width: 1200px;
+  }
+  .gallery.cols-3 article {
+    /* 3 columns in gallery */
+    max-width: 32.5%;
+  }
+}

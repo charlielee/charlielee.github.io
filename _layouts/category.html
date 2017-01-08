@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      <header style="background-image: url('{{ page.img }}');">
+        <h1>Category: {{ page.title }}</h1>
+      </header>
+
+      <div>
+        <article>{{ content }}</article>
+        {% capture get_category %}{{ page.title }}{% endcapture %}
+        {% for post in site.categories[get_category] %}
+        <article class="item">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <ul>
+            <li>Posted: {{ post.date }}</li>
+            <li>Author: {{ post.author }}</li>
+          </ul>
+          {{ post.excerpt }}
+        </article>
+        {% endfor %}
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<header>
+<nav>
+  <div id="mobile-menu-toggle">|||</div>
+  <div id="logo">
+    <a href="{{ site.baseurl }}/index.html">{{ site.title }}</a>
+  </div>
+  <ul id="menu-list">
+    {% for link in site.navigation %}
+    <li><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+</header>
