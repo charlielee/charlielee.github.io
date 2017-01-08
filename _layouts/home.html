@@ -24,7 +24,7 @@
         {% assign items = site.posts %}
       {% endif %}
       {% for entry in items %}
-        <article>
+        <article style="background-image: url('{{ entry.img }}');">
           <h2>{{ entry.title }}</h2>
           <a href="{{ entry.url }}"><span>Read</span></a>
         </article>
