@@ -17,7 +17,7 @@
         {% endif %}
       </header>
 
-      <div class="gallery cols-3">
+      <div class="gallery">
       {% if page.collection %}
         {% assign items = site[page.collection] %}
       {% else %}
@@ -26,6 +26,7 @@
       {% for entry in items %}
         <article style="background-image: url('{{ entry.img }}');">
           <h2>{{ entry.title }}</h2>
+          <p>{{ entry.excerpt }}</p>
           <a href="{{ entry.url }}"></a>
         </article>
       {% endfor %}

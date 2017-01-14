@@ -10,6 +10,7 @@ redirect_from:
 - animator
 - animator/
 img: https://cloud.githubusercontent.com/assets/3674297/10865688/78153514-7fea-11e5-8e34-0e600ada42eb.png
+excerpt: I am currently working on an open-source HTML 5 and JavaScript based stop motion animation program.
 ---
 ## A free stop motion animation program
 
