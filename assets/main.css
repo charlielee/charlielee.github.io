@@ -564,7 +564,7 @@ footer li:last-child:after {
      display: flex;
     /* Moves header contents onto one row */
     flex-flow: row wrap;
-    max-width: 1200px;
+    max-width: 800px;
   }
   nav ul, header nav ul.hidden {
     display: block;
