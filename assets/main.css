@@ -167,6 +167,8 @@ header {
 main header {
   background-color: rgb(85,98,112);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   margin: 0 auto 1em auto;
   overflow: hidden;
 }
@@ -350,9 +352,11 @@ footer li:last-child:after {
 .gallery p {
   background-color: rgba(255,255,255,0.85);
   bottom: 0;
+  box-sizing: border-box;
   margin: 0;
   padding: 1em;
   position: absolute;
+  width: 100%;
 }
 
 .gallery a {

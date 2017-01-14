@@ -27,7 +27,7 @@
         <article style="background-image: url('{{ entry.img }}');">
           <h2>{{ entry.title }}</h2>
           <p>{{ entry.excerpt }}</p>
-          <a href="{{ entry.url }}"></a>
+          <a href={% if entry.external_url %}"{{ entry.external_url }}" target="_blank"{% else %}"{{ entry.url }}"{% endif %}></a>
         </article>
       {% endfor %}
       </div>
