@@ -1,6 +1,7 @@
 ---
 title: Contact
 layout: page
+img: assets/img/map.png
 ---
 Tell me something interesting or ask a question!
 
