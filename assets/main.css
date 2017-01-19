@@ -314,6 +314,7 @@ footer li:last-child:after {
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% auto;
+  border-color: rgb(85,98,112);
   border-left-style: solid;
   border-width: 5px;
   box-shadow: inset -1px 0 50px 1px rgb(100,100,100);
@@ -325,18 +326,9 @@ footer li:last-child:after {
   padding: 0;
   position: relative;
 }
-/* Gallery item borders switch between 3 colors */
-.gallery article:nth-of-type(3n+1) {
-  border-color: rgb(33,123,22);
-}
-.gallery article:nth-of-type(3n+2) {
-  border-color: rgb(215,18,139);
-}
-.gallery article:nth-of-type(3n+3) {
-  border-color: rgb(0,83,133);
-}
 
 .gallery h2 {
+  background-color: rgb(85,98,112);
   box-sizing: border-box;
   color: rgb(255,255,255);
   display: inline;
@@ -374,17 +366,6 @@ footer li:last-child:after {
 }
 .gallery a:active {
   opacity: 0.20;
-}
-
-/* Background color of gallery items text switches between 3 colors */
-.gallery article:nth-of-type(3n+1) h2 {
-  background-color: rgb(33,123,22);
-}
-.gallery article:nth-of-type(3n+2) h2 {
-  background-color: rgb(215,18,139);
-}
-.gallery article:nth-of-type(3n+3) h2 {
-  background-color: rgb(0,83,133);
 }
 
 /* 1.7. BACKGROUND IMAGES
