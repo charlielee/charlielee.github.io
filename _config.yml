@@ -9,7 +9,7 @@ navigation:
 - text: Home
   url: /
 - text: Contact
-  url: contact.html
+  url: contact
 permalink: /:year/:month/:title
 
 # Collections

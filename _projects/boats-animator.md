@@ -3,13 +3,11 @@ title: Boats Animator
 repository: https://github.com/BoatsAreRockable/boats-animator
 version: 0.7.3
 layout: page
+permalink: boats-animator
 redirect_from:
 - boatsanimator
-- boats-animator
-- boats-animator/
 - animator
-- animator/
-img: https://cloud.githubusercontent.com/assets/3674297/10865688/78153514-7fea-11e5-8e34-0e600ada42eb.png
+img: assets/img/boats-animator.png
 excerpt: An open-source stop motion animation program created using NW.js.
 ---
 ## A free stop motion animation program
