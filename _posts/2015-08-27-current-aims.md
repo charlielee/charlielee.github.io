@@ -1,11 +1,7 @@
 ---
-id: 317
 title: Current Aims
-date: 2015-08-27T09:53:39+00:00
 author: Charlie Lee
 layout: post
-guid: http://charlielee.uk/?p=317
-permalink: /2015/08/current-aims/
 categories:
   - Boats Animator
 ---
@@ -20,5 +16,3 @@ Right now I am working towards getting Boats Animator into a usable state. I wou
   * Render image sequence to webM format via whammy.js
 
 The current time scale for completing this work is by the end of September although this is subject to change.
-
-&#8211; Charlie

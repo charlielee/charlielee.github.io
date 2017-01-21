@@ -1,11 +1,7 @@
 ---
-id: 507
 title: Boats Animator 0.7.3
-date: 2016-11-25T11:08:39+00:00
 author: Charlie Lee
 layout: post
-guid: http://charlielee.uk/?p=507
-permalink: /2016/11/boats-animator-0-7-3/
 categories:
   - Boats Animator
 ---

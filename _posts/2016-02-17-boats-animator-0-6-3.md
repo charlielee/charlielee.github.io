@@ -1,11 +1,7 @@
 ---
-id: 403
 title: Boats Animator 0.6.3
-date: 2016-02-17T15:20:56+00:00
 author: Charlie Lee
 layout: post
-guid: http://charlielee.uk/?p=403
-permalink: /2016/02/boats-animator-0-6-3/
 categories:
   - Boats Animator
 ---

@@ -60,12 +60,12 @@ a:hover { color: rgb(4,81,94); }
 }
 
 /* ===Forms===*/
-input, label, textarea {
+input, textarea {
   box-sizing: border-box;
   display: block;
   margin: 1em 0;
   padding: 10px;
-  width: 100%;
+  width: 50%;
 }
 textarea {
   resize: vertical;

@@ -1,11 +1,7 @@
 ---
-id: 314
 title: Boats Animator
-date: 2015-08-26T10:02:56+00:00
 author: Charlie Lee
 layout: post
-guid: http://charlielee.uk/?p=314
-permalink: /2015/08/boats-animator/
 categories:
   - Boats Animator
 ---

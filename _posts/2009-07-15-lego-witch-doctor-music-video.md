@@ -1,20 +1,13 @@
 ---
-id: 255
-title: 'LEGO Witch Doctor &#8211; Music Video'
-date: 2009-07-15T14:01:50+00:00
+title: LEGO Witch Doctor &#8211; Music Video
 author: Charlie Lee
 layout: post
-guid: http://charlielee.uk/?p=255
-permalink: /2009/07/lego-witch-doctor-music-video/
-ninja_forms_form:
-  - "0"
 categories:
   - Films
 ---
 I created this film back in July 2009 and with over 26000 views it is the most popular video I have created. I have good memories of making this film and to this day I still remember most of this song&#8217;s words&#8230;
   
-<a href="https://www.youtube.com/watch?v=EXTbKxnm90s" target="_blank">Watch on YouTube</a>
-
+[Watch on YouTube](https://www.youtube.com/watch?v=EXTbKxnm90s)
 
 
 ## Technical specs for this film
