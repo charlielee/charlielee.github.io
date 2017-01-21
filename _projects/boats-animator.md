@@ -23,7 +23,7 @@ Boats Animator is an open source frame capture program that has been created to 
 | Instant Playback | Onion Skinning | Active Development |
 | - | - | - |
 | Instantly preview your captured frames with Boats Animator. Unlike other programs, there is no need to wait for the frames to process. | This professional feature helps keep your animations smooth by showing you a translucent version of the last image captured. | New features are always being added to Boats Animator and [your suggestions]({{ page.repository }}/issues) are very welcome. |
-| ![playback](http://charlielee.uk/wp-content/uploads/2015/11/playback.png) | ![onion skin](http://charlielee.uk/wp-content/uploads/2015/11/onion-skin.png) | ![GitHub_Logo](http://charlielee.uk/wp-content/uploads/2015/11/GitHub_Logo-510x209.png) |
+| ![playback](http://charlielee.uk/assets/boats-animator/playback.png) | ![onion skin](http://charlielee.uk/assets/boats-animator/onion-skin.png) | ![GitHub_Logo](http://charlielee.uk/assets/boats-animator/github-logo.png) |
 
 ## Downloads
 
@@ -32,6 +32,7 @@ Boats Animator is an open source frame capture program that has been created to 
 | [Win32 (installer)]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-Setup.exe) | [MacOS]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-osx-x64.zip) | [Linux (64 bit)]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-linux-x64.tar.gz) |
 | [Win32 (portable)]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-win-ia32.zip) | | [Linux (32 bit)]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-linux-ia32.tar.gz) |
 
+{% include signup-boats-animator-news.html %}
 
 ## Resources
 
