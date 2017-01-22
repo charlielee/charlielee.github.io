@@ -13,7 +13,6 @@
         1.4. NAVIGATION
         1.5. FOOTER
         1.6. HOMEPAGE GALLERY
-        1.7. BACKGROUND IMAGES
 
    2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT (min-width: 500px)
         2.1. PRIMARY
@@ -44,8 +43,14 @@ p {
 
 table {
   width: 100%;
-  table-layout: fixed;
-  text-align: center;
+  text-align: left;
+}
+td {
+  padding: 0.5em 0;
+}
+
+h2 {
+  margin: 1.5em 0;
 }
 
 /* ===Links=== */
@@ -63,9 +68,9 @@ a:hover { color: rgb(4,81,94); }
 input, textarea {
   box-sizing: border-box;
   display: block;
-  margin: 1em 0;
+  margin-bottom: 1em;
   padding: 10px;
-  width: 50%;
+  width: 100%;
 }
 textarea {
   resize: vertical;
@@ -103,7 +108,8 @@ article {
 }
 article img {
   box-shadow: 1px 0 10px 1px rgb(85,98,112);
-  margin: 1em 0;
+  clear: both;
+  margin: 1.5em 0;
   width: 100%;
 }
 
@@ -368,52 +374,6 @@ footer li:last-child:after {
   opacity: 0.20;
 }
 
-/* 1.7. BACKGROUND IMAGES
-   --------------------------------
-
-/* ===HOME PAGE=== */
-#welcome {
-  background-image: url("../img/welcome.jpg");
-}
-
-/* ===GAMES=== */
-#block-slider-3 {
-  background-image: url("../img/tea1.jpg");
-}
-#block-slider-3 {
-  background-image: url("../img/tea2.jpg");
-}
-#spot-difference {
-  background-image: url("../img/spot-the-difference.png");
-}
-#tic-tac-toe {
-  background-image: url("../img/tea1.jpg");
-}
-#cat-teapot {
-  background-image: url("../img/cat.jpg");
-}
-
-/* ===REVIEWS=== */
-#reviews {
-  background-image: url("../img/reviews.jpg");
-}
-
-/* ===ABOUT=== */
-#about {
-  background-color: rgb(202,135,26);
-  background-image: url("../img/checkers.jpg");
-}
-
-/* ===NEWS=== */
-#news {
-  background-image: url("../img/news.jpg");
-}
-
-/* ===CONTACT=== */
-#contact {
-  background-image: url("../img/contact.jpg");
-}
-
 /* ================================
    2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT
    ================================ */
@@ -485,12 +445,18 @@ footer li:last-child:after {
 
   /* 3.1. PRIMARY
    -------------------------------- */
-  article h2 {
-    width: 100%;
+  article h2, article h3 {
+    clear: both;
   }
   article {
     max-width: 800px;
     padding: 0 20px;
+  }
+  article img {
+    float: right;
+    margin-top: 0;
+    max-width: 100%;
+    width: auto;
   }
   article.with-sidebar {
     display: flex;
