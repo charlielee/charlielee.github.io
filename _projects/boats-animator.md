@@ -1,7 +1,7 @@
 ---
 title: Boats Animator
 repository: https://github.com/BoatsAreRockable/boats-animator
-version: 0.7.3
+version: 0.7.4
 layout: page
 permalink: boats-animator
 redirect_from:
@@ -14,11 +14,11 @@ excerpt: An open-source stop motion animation program created using NW.js.
 
 #### For Windows, OS X and Linux
 
-![Screenshot of Boats Animator v0.6.1](https://cloud.githubusercontent.com/assets/3674297/10865688/78153514-7fea-11e5-8e34-0e600ada42eb.png)
+![Screenshot of Boats Animator v0.6.1](../assets/img/boats-animatorr.png)
 
 ## Features
 
-Boats Animator is an open source frame capture program that has been created to provide a powerful and easy to use alternative to the ageing existing free programs. Its intuitive interface caters to animators of all levels and offers many powerful features. The program has been open sourced under the GNU General Public License and contributions are welcome to the project's active [GitHub repository](https://github.com/boatsarerockable/animator).
+Boats Animator is an open source frame capture program that has been created to provide a powerful and easy to use alternative to the ageing existing free programs. Its intuitive interface caters to animators of all levels and offers many powerful features. The program has been open sourced under the GNU General Public License and contributions are welcome to the project's active [GitHub repository]({{ page.repository }}).
 
 | Instant Playback | Onion Skinning | Active Development |
 | - | - | - |
