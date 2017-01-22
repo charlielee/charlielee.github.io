@@ -383,6 +383,13 @@ footer li:last-child:after {
   /* 2.1. PRIMARY
      -------------------------------- */
 
+  article img {
+    float: right;
+    margin-top: 0;
+    max-width: 100%;
+    width: auto;
+  }
+
   aside li {
     display: inline-block;
   }
@@ -451,12 +458,6 @@ footer li:last-child:after {
   article {
     max-width: 800px;
     padding: 0 20px;
-  }
-  article img {
-    float: right;
-    margin-top: 0;
-    max-width: 100%;
-    width: auto;
   }
   article.with-sidebar {
     display: flex;

@@ -10,9 +10,7 @@ redirect_from:
 img: assets/img/boats-animator.png
 excerpt: An open-source stop motion animation program created using NW.js.
 ---
-## A free stop motion animation program
-
-#### For Windows, macOS and Linux
+## A free open-source stop motion animation program.
 
 ![Screenshot of Boats Animator v0.6.1](../assets/img/boats-animator.png)
 
@@ -24,15 +22,19 @@ excerpt: An open-source stop motion animation program created using NW.js.
 
 ### Instant Playback
 
-![playback](../assets/boats-animator/playback.png) Instantly preview your captured frames with Boats Animator. Unlike other programs, there is no need to wait for the frames to process.
+![Playback](../assets/boats-animator/playback.png) Instantly preview your captured frames with Boats Animator. Unlike other programs, there is no need to wait for the frames to process.
 
 ### Onion Skinning
 
-![onion skin](../assets/boats-animator/onion-skin.png) This professional feature helps keep your animations smooth by showing you a translucent version of the last image captured.
+![Onion skinning](../assets/boats-animator/onion-skin.png) This professional feature helps keep your animations smooth by showing you a translucent version of the last image captured. 
 
 ### Open Source
 
-![GitHub_Logo](../assets/boats-animator/github-logo.png) New features are always being added to Boats Animator by people **just like you**. [Your suggestions]({{ page.repository }}/issues) and contributions are what improves Boats Animator for everyone.
+![GitHub logo](../assets/boats-animator/github-logo.png) New features are always being added to Boats Animator by people **just like you**. [Your suggestions]({{ page.repository }}/issues) and contributions improve Boats Animator for everyone.
+
+### For Windows, macOS and Linux
+
+![Cross platform](../assets/boats-animator/cross-platform.png) Boats Animator is built with [web technologies](http://nwjs.io/) which means it runs equally well on all major desktop operating systems. 
 
 ## Downloads
 
