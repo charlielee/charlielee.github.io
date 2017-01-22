@@ -14,7 +14,7 @@ excerpt: An open-source stop motion animation program created using NW.js.
 
 #### For Windows, OS X and Linux
 
-![Screenshot of Boats Animator v0.6.1](../assets/img/boats-animatorr.png)
+![Screenshot of Boats Animator v0.6.1](../assets/img/boats-animator.png)
 
 ## Features
 
