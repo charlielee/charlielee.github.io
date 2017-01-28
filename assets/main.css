@@ -228,7 +228,7 @@ nav {
   margin: 0 auto;
 }
 nav ul {
-  display: flex;
+  display: none;
   flex-flow: row wrap;
   justify-content: flex-end;
   margin: 0;
@@ -272,8 +272,8 @@ nav li.highlight:nth-of-type(2n+2) a {
   color: rgb(212,212,212);
   cursor: pointer;
 }
-header nav ul.hidden {
-  display: none;
+header nav ul.visible {
+  display: flex;
 }
 
 /* 1.5. FOOTER
@@ -348,7 +348,7 @@ footer li:last-child:after {
 }
 
 .gallery p {
-  background-color: rgba(255,255,255,0.85);
+  background-color: rgba(255,255,255,0.95);
   bottom: 0;
   box-sizing: border-box;
   margin: 0;
@@ -411,7 +411,8 @@ footer li:last-child:after {
   /* 2.3. NAVIGATION
      -------------------------------- */
 
-  nav ul {
+  nav ul, header nav ul.visible {
+    display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
     margin: 0;
@@ -430,10 +431,6 @@ footer li:last-child:after {
   /* ===Top navigation=== */
   #mobile-menu-toggle {
     display: none;
-  }
-
-  header nav ul.hidden {
-    display: flex;
   }
 
   /* 2.4. HOME PAGE GALLERY
@@ -514,7 +511,7 @@ footer li:last-child:after {
     flex-flow: row wrap;
     max-width: 800px;
   }
-  nav ul, header nav ul.hidden {
+  nav ul, header nav ul.visible {
     display: block;
     flex: 1;
     text-align: right;
