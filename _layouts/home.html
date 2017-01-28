@@ -8,10 +8,12 @@
     <main>
       <header class="hero">
         <div>
-          <h1>{{ page.hero_text }}</h1>
+          <header>
+            <h1>{{ page.hero_text }}</h1>
+          </header>
         </div>
-        {% if page.img %}
-        <img src="{{ site.baseurl }}/{{ page.img }}">
+        {% if page.hero_img %}
+        <img src="{{ site.baseurl }}/{{ page.hero_img }}">
         {% else %}
         <section style="height: 15em; width: 100%"></div>
         {% endif %}
@@ -24,7 +26,7 @@
         {% assign items = site.posts %}
       {% endif %}
       {% for entry in items %}
-        <article style="background-image: url('{{ entry.img }}');">
+        <article style="background-image: url('{{ entry.gallery_img }}');">
           <h2>{{ entry.title }}</h2>
           <p>{{ entry.excerpt }}</p>
           <a href={% if entry.external_url %}"{{ entry.external_url }}" target="_blank"{% else %}"{{ entry.url }}"{% endif %}></a>

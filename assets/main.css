@@ -180,7 +180,7 @@ main header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin: 0 auto 1em auto;
+  margin: 0 auto;
   overflow: hidden;
 }
 main header h1 {
@@ -212,14 +212,26 @@ main header h1 {
   width: 100%;
   z-index: 2;
 }
+.hero header {
+  background-color: transparent;
+  box-sizing: border-box;
+  max-width: 800px;
+  padding: 0 10px;
+  width: 100%;
+}
 .hero h1 {
   background-color: transparent;
   color: rgb(255,255,255);
   display: inline;
   line-height: 1.2em;
   margin: 0;
+  padding: 0;
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
   white-space: pre-wrap;
+}
+.hero h2 {
+  color: rgb(255,255,255);
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .hero img {
   width: 100%;

@@ -7,13 +7,11 @@ permalink: boats-animator/
 redirect_from:
 - boatsanimator
 - animator
-img: assets/boats-animator/screenshot-1-reduced.jpg
+gallery_img: assets/boats-animator/screenshot-1-reduced.jpg
+hero_img: assets/boats-animator/screenshot-1-reduced.jpg
+hero_text: A free open-source stop motion animation program.
 excerpt: An open-source stop motion animation program created using NW.js.
 ---
-## A free open-source stop motion animation program.
-
-![Screenshot of Boats Animator v0.6.1](../assets/boats-animator/screenshot-1-reduced.jpg)
-
 ## Introduction
 
 **Boats Animator** is a free and open-source stop motion animation program for Windows, macOS and Linux. Its intuitive interface caters to animators of all levels and offers many powerful features. The program has been open sourced under the GNU General Public License and contributions are welcome to the project's active [GitHub repository]({{ page.repository }}).
