@@ -5,6 +5,8 @@ img: assets/img/map.png
 ---
 Tell me something interesting or ask a question!
 
-* Email: [contact@charlielee.uk](mailto:contact@charlielee.uk)
-* GitHub: [BoatsAreRockable](https://github.com/BoatsAreRockable)
-* YouTube: [BoatsAreRockable](https://youtube.com/user/BoatsAreRockable)
+<ul class="plainlist">
+  <li>Email: <a href="mailto:contact@charlielee.uk">contact@charlielee.uk</a></li>
+  <li>GitHub: <a href="https://github.com/BoatsAreRockable">BoatsAreRockable</a></li>
+  <li>YouTube: <a href="https://youtube.com/user/BoatsAreRockable">BoatsAreRockable</a></li>
+</ul>

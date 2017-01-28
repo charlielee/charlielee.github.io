@@ -63,6 +63,12 @@ a:hover { color: rgb(4,81,94); }
   display: none;
 }
 
+/* ===Plain list=== */
+ul.plainlist {
+  list-style-type: none;
+  padding: 0;
+}
+
 /* ===Forms===*/
 input, textarea {
   box-sizing: border-box;
@@ -487,6 +493,15 @@ footer li:last-child:after {
     padding: 0;
   }
   section {
+    flex: 1;
+  }
+
+  /* ===Plain list=== */
+  ul.plainlist {
+    display: flex;
+  }
+
+  .plainlist li {
     flex: 1;
   }
 
