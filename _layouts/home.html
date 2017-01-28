@@ -10,6 +10,9 @@
         <div>
           <header>
             <h1>{{ page.hero_text }}</h1>
+            {% if page.hero_button_text %}
+            <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
+            {% endif %}
           </header>
         </div>
         {% if page.hero_img %}

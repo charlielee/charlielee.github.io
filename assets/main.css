@@ -69,6 +69,27 @@ ul.plainlist {
   padding: 0;
 }
 
+/* ===Buttons=== */
+.button {
+  background-color: rgb(0,171,202);
+  border-radius: 10px;
+  color: rgb(255,255,255);
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  padding: 15px;
+  text-decoration: none;
+}
+.button:visited {
+  color: rgb(255,255,255);
+}
+.button:hover {
+  box-shadow: 0 0 10px 3px rgb(0,171,202);
+  color: rgb(255,255,255);
+}
+.hero a.button {
+  display: none;
+}
+
 /* ===Forms===*/
 input, textarea {
   box-sizing: border-box;
@@ -222,7 +243,6 @@ main header h1 {
 .hero h1 {
   background-color: transparent;
   color: rgb(255,255,255);
-  display: inline;
   line-height: 1.2em;
   margin: 0;
   padding: 0;
@@ -231,6 +251,7 @@ main header h1 {
 }
 .hero h2 {
   color: rgb(255,255,255);
+  margin: 1em 0;
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .hero img {
@@ -416,6 +437,9 @@ footer li:last-child:after {
   }
   aside li:last-child:after {
     content: "";
+  }
+  .hero a.button {
+    display: inline-block;
   }
 
   /* 2.2. HEADERS

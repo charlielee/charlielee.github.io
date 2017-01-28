@@ -8,9 +8,11 @@ redirect_from:
 - boatsanimator
 - animator
 gallery_img: assets/boats-animator/screenshot-1-reduced.jpg
+excerpt: An open-source stop motion animation program created using NW.js.
 hero_img: assets/boats-animator/screenshot-1-reduced.jpg
 hero_text: A free open-source stop motion animation program.
-excerpt: An open-source stop motion animation program created using NW.js.
+hero_button_text: Download Boats Animator
+hero_button_link: "#downloads"
 ---
 ## Introduction
 
@@ -43,9 +45,10 @@ excerpt: An open-source stop motion animation program created using NW.js.
 
 #### Other
 
-* [Other downloads]({{ page.repository }}/releases)
-* [System requirements](http://boatsanimator.readthedocs.io/en/latest/introduction/system-requirements/)
-
+<ul class="plainlist">
+  <li><a href="{{ page.repository }}/releases">Other downloads</a></li>
+  <li><a href="http://boatsanimator.readthedocs.io/en/latest/introduction/system-requirements/">System requirements</a></li>
+</ul>
 
 {% include signup-boats-animator-news.html %}
 
