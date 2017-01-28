@@ -422,6 +422,7 @@ footer li:last-child:after {
      -------------------------------- */
 
   article img {
+    clear: both;
     float: right;
     margin-top: 0;
     max-width: 100%;
