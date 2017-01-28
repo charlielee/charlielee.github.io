@@ -38,7 +38,7 @@ Post contents.
 Creates a page with a grid displaying recent posts.
 
 | Variable | Description |
-| - | - |
+| --- | --- |
 | `img` | The image to use as the "hero" image |
 | `collection` | If specified, the pages in that will be displayed in the gallery instead of the most recent posts. Gallery items will also use the `img` and `external_url` specified on the page of the collection. |
 | `hero_text` | The text to display on top of the "hero" image |
