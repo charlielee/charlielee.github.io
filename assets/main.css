@@ -23,8 +23,7 @@
    3.0. DESKTOP BREAKPOINT (min-width: 768px)
         3.1. PRIMARY
         3.2. HEADERS
-        3.3. NAVIGATION
-        3.4. HOMEPAGE GALLERY
+        3.3. HOMEPAGE GALLERY
 */
 
 /* ================================
@@ -404,6 +403,10 @@ footer li:last-child:after {
   /* 2.2. HEADERS
      -------------------------------- */
 
+  #logo {
+    font-size: 2em;
+  }
+
   main header h1 {
     font-size: 2.5em;
   }
@@ -411,21 +414,29 @@ footer li:last-child:after {
   /* 2.3. NAVIGATION
      -------------------------------- */
 
+  nav {
+     display: flex;
+    /* Moves header contents onto one row */
+    flex-flow: row wrap;
+    max-width: 800px;
+  }
+
   nav ul, header nav ul.visible {
-    display: flex;
+    display: block;
+    flex: 1;
+    text-align: right;
     flex-flow: row wrap;
     justify-content: flex-end;
     margin: 0;
     padding: 10px;
   }
-  nav li {
-    flex: 1;
-    margin: 0 10px 0 0;
-  }
 
-  /* ===Highlighted nav items=== */
-  nav li.highlight a {
-    border-radius: 5px;
+  nav li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+  nav li:last-of-type {
+    margin: 0;
   }
 
   /* ===Top navigation=== */
@@ -437,7 +448,8 @@ footer li:last-child:after {
    -------------------------------- */
 
   .gallery article {
-     max-width: 49%;
+    /* Displays two columns in the gallery */
+    max-width: 49%;
   }
 }
 
@@ -481,10 +493,6 @@ footer li:last-child:after {
   /* 3.2. HEADERS
    -------------------------------- */
 
-  #logo {
-    font-size: 2em;
-  }
-
   /* ===Page header=== */
   main header {
     width: 100%;
@@ -502,34 +510,7 @@ footer li:last-child:after {
     max-width: 800px;
   }
 
-  /* 3.3. NAVIGATION
-   -------------------------------- */
-
-  nav {
-     display: flex;
-    /* Moves header contents onto one row */
-    flex-flow: row wrap;
-    max-width: 800px;
-  }
-  nav ul, header nav ul.visible {
-    display: block;
-    flex: 1;
-    text-align: right;
-  }
-  nav li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-  }
-  nav li:last-of-type {
-    margin: 0;
-  }
-
-  /* ===Top navigation===*/
-  header nav ul {
-    display: block;
-  }
-
-  /* 3.4. HOME PAGE GALLERY
+  /* 3.3. HOME PAGE GALLERY
    -------------------------------- */
 
   .gallery {
