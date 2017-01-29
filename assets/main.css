@@ -88,9 +88,6 @@ ul.plainlist {
   color: rgb(0,171,202);
   cursor: pointer;
 }
-.hero a.button {
-  display: none;
-}
 
 /* ===Forms===*/
 input, textarea {
@@ -423,9 +420,6 @@ footer li:last-child:after {
   }
   aside li:last-child:after {
     content: "";
-  }
-  .hero a.button {
-    display: inline-block;
   }
 
   /* 2.2. HEADERS
