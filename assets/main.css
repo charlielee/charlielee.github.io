@@ -164,7 +164,9 @@ aside ul {
 
 /* ===Global header===*/
 #global-header {
-  background-color: rgb(0,0,0);
+  background-color: black;
+  width: 100%;
+  z-index: 2;
 }
 
 /* ===Logo=== */
@@ -206,7 +208,7 @@ main header h1 {
   background-size: cover;
   box-sizing: border-box;
   display: flex;
-  height: 80vh;
+  height: 15em;
   overflow: hidden;
   position: relative;
 }
@@ -219,7 +221,6 @@ main header h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 1;
 }
 .hero header {
   background-color: transparent;
@@ -252,6 +253,7 @@ nav {
   /* Center the nav bar */
   margin: 0 auto;
 }
+
 nav ul {
   display: none;
   flex-flow: row wrap;
@@ -275,8 +277,7 @@ nav a {
 }
 nav a:visited { color: rgb(255,255,255); }
 nav a:hover {
-  background-color: rgb(30,30,30);
-  color: rgb(212,212,212);
+  color: rgb(200,200,200);
 }
 
 /* ===Top navigation=== */
@@ -294,7 +295,7 @@ nav a:hover {
 #mobile-menu-toggle:hover {
   background-color: rgb(30,30,30);
   text-decoration: none;
-  color: rgb(212,212,212);
+  color: rgb(200,200,200);
   cursor: pointer;
 }
 header nav ul.visible {
@@ -429,6 +430,11 @@ footer li:last-child:after {
 
   /* 2.2. HEADERS
      -------------------------------- */
+
+  #global-header {
+    background-color: transparent;
+    position: absolute;
+  }
 
   #logo {
     font-size: 2em;

@@ -1,7 +1,7 @@
 ---
 title: Brickfilms Wiki
 layout: page
-img: ../assets/img/brickfilms-wiki.png
+hero_img: ../assets/img/brickfilms-wiki.png
 gallery_img: ../assets/img/brickfilms-wiki-gallery-image.jpg
 excerpt: An encyclopaedia about LEGO stop motion animated films.
 ---

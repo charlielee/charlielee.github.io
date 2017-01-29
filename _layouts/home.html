@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <main>
-      <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}');">
+      <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}'); {% if page.hero_text %}height: 80vh;{% endif %}">
         <div>
           <header>
             <h1>{{ page.hero_text }}</h1>
