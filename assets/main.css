@@ -135,7 +135,6 @@ article {
 article img {
   box-shadow: 1px 0 10px 1px rgb(85,98,112);
   clear: both;
-  margin: 1.5em 0;
   width: 100%;
 }
 
@@ -422,7 +421,6 @@ footer li:last-child:after {
      -------------------------------- */
 
   article img {
-    clear: both;
     float: right;
     margin-top: 0;
     max-width: 100%;
