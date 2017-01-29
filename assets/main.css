@@ -159,7 +159,7 @@ aside ul {
    -------------------------------- */
 
 /* ===Global header===*/
-header {
+#global-header {
   background-color: rgb(0,0,0);
 }
 
@@ -215,7 +215,6 @@ main header h1 {
 }
 .hero header {
   background-color: transparent;
-  box-sizing: border-box;
   max-width: 800px;
   padding: 0 10px;
   width: 100%;
@@ -394,8 +393,9 @@ footer li:last-child:after {
      -------------------------------- */
 
   article img {
+    clear: both;
     float: right;
-    margin-top: 0;
+    margin: 0 0 1em 1em;
     max-width: 100%;
     width: auto;
   }
@@ -432,7 +432,7 @@ footer li:last-child:after {
      display: flex;
     /* Moves header contents onto one row */
     flex-flow: row wrap;
-    max-width: 800px;
+    max-width: 820px;
   }
 
   nav ul, header nav ul.visible {
@@ -501,15 +501,6 @@ footer li:last-child:after {
     padding: 0;
   }
   section {
-    flex: 1;
-  }
-
-  /* ===Plain list=== */
-  ul.plainlist {
-    display: flex;
-  }
-
-  .plainlist li {
     flex: 1;
   }
 

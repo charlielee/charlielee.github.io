@@ -1,13 +1,13 @@
-<header>
-<nav>
-  <div id="mobile-menu-toggle">|||</div>
-  <div id="logo">
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-  </div>
-  <ul id="menu-list">
-    {% for link in site.navigation %}
-    <li><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
-    {% endfor %}
-  </ul>
-</nav>
+<header id="global-header">
+  <nav>
+    <div id="mobile-menu-toggle">|||</div>
+    <div id="logo">
+      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <ul id="menu-list">
+      {% for link in site.navigation %}
+      <li><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>

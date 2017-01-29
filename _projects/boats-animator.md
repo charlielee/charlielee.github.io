@@ -54,8 +54,10 @@ hero_button_link: "#downloads"
 
 ## Resources
 
-* [GitHub Repository]({{ page.repository }})
-* [Downloads]({{ page.repository }}/releases)
-* [News](/category/boats-animator)
-* [Bricks in Motion thread](http://www.bricksinmotion.com/forums/topic/21891/)
-* [Documentation](http://boatsanimator.readthedocs.io)
+<ul class="plainlist">
+  <li><a href="{{ page.repository }}">GitHub Repository</a></li>
+  <li><a href="{{ page.repository }}/releases">Downloads</a></li>
+  <li><a href="/category/boats-animator">News</a></li>
+  <li><a href="http://www.bricksinmotion.com/forums/topic/21891/">Bricks in Motion thread</a></li>
+  <li><a href="http://boatsanimator.readthedocs.io/">Documentation</a></li>
+</ul>
