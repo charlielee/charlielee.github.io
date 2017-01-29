@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <main>
-      <header class="hero">
+      <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}');">
         <div>
           <header>
             <h1>{{ page.hero_text }}</h1>
@@ -15,14 +15,9 @@
             {% endif %}
           </header>
         </div>
-        {% if page.hero_img %}
-        <img src="{{ site.baseurl }}/{{ page.hero_img }}">
-        {% else %}
-        <section style="height: 15em; width: 100%"></div>
-        {% endif %}
       </header>
 
-      <div class="gallery">
+      <div id="gallery" class="gallery">
       {% if page.collection %}
         {% assign items = site[page.collection] %}
       {% else %}

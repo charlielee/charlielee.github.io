@@ -177,10 +177,6 @@ aside ul {
   display: inline-block;
   text-align: left;
 }
-/*#logo a:hover {
-  background-color: rgb(30,30,30);
-  text-decoration: none;
-}*/
 
 /* ===Page header=== */
 main header {
@@ -204,8 +200,11 @@ main header h1 {
 /* ===Hero headers===*/
 .hero {
   align-items: center;
+  background-position: center;
+  background-size: cover;
   box-sizing: border-box;
   display: flex;
+  height: 80vh;
   overflow: hidden;
   position: relative;
 }
@@ -218,7 +217,7 @@ main header h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
 }
 .hero header {
   background-color: transparent;
@@ -530,10 +529,7 @@ footer li:last-child:after {
     max-width: 800px;
   }
 
-  /* ===Hero headers===*/
-  .hero {
-    max-height: 25em;
-  }
+  /* ===Hero headers===*/}
   .hero h1 {
     font-size: 3.5em;
     max-width: 800px;

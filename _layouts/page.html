@@ -7,7 +7,7 @@
 
     <main>
       {% if page.hero_text %}
-      <header class="hero">
+      <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}');">
         <div>
           <header>
             <h1>{{ page.title }}</h1>
@@ -17,11 +17,6 @@
             {% endif %}
           </header>
         </div>
-        {% if page.hero_img %}
-        <img src="{{ site.baseurl }}/{{ page.hero_img }}">
-        {% else %}
-        <section style="height: 15em; width: 100%"></div>
-        {% endif %}
       </header>
       {% else %}
       <header style="background-image: url('{{ site.baseurl }}/{{ page.img }}');">
