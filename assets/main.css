@@ -147,6 +147,10 @@ article img {
   margin-top: 0;
 }
 
+.post-details-caption {
+  font-weight: 600;
+}
+
 /* ===Article sidebars===*/
 aside ul {
   padding: 0;
@@ -172,6 +176,7 @@ aside ul {
 }
 #logo a {
   display: inline-block;
+  padding: 10px;
   text-align: left;
 }
 
@@ -263,7 +268,7 @@ nav li {
 nav a {
   color: rgb(255,255,255);
   display: block;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
   text-shadow: 1px 1px rgb(40,40,40);
   white-space: nowrap;
@@ -441,6 +446,10 @@ footer li:last-child:after {
     /* Moves header contents onto one row */
     flex-flow: row wrap;
     max-width: 820px;
+  }
+
+  nav a {
+    padding: 10px;
   }
 
   nav ul, header nav ul.visible {
