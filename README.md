@@ -1,7 +1,6 @@
 # boatsarerockable.github.io
 
-My personal website created using Jekyll. When completed this will replace the Wordpress site currrently hosted at [charlielee.uk](http://charlielee.uk).
-
+My personal website [charlielee.uk](http://charlielee.uk/) which is hosted with GitHub pages and created using [Jekyll](https://jekyllrb.com/).
 ## Usage
 
 ### Layouts
