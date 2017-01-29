@@ -137,7 +137,7 @@ article {
 }
 article img {
   box-shadow: 1px 0 10px 1px rgb(85,98,112);
-  clear: both;
+  margin-bottom: 1em;
   width: 100%;
 }
 
