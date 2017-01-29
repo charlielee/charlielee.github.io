@@ -10,7 +10,7 @@ navigation:
   url: /
 - text: Contact
   url: contact
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 
 # Collections
 collections:
@@ -19,10 +19,10 @@ collections:
     permalink: /category/:path/
   feeds:
     output: true
-    permalink: /feed/:path
+    permalink: /feed/:path/
   projects:
     output: true
-    permalink: /project/:path
+    permalink: /project/:path/
 
 # Build settings
 markdown: kramdown
