@@ -16,9 +16,14 @@
 
       <div>
         <article>
-          <ul>
-            <li>Posted: {{ page.date }}</li>
-            <li>Author: {{ page.author }}</li>
+          <ul class="plainlist">
+            <li><span class="post-details-caption">Posted:</span> {{ page.date }}</li>
+            <li><span class="post-details-caption">Author:</span> {{ page.author }}</li>
+            <li>
+              <span class="post-details-caption">Categories:</span>
+               {% for entry in page.categories %}{% unless forloop.first %},{% endunless %}
+               <a href="{{ site.baseurl }}/category/{{ entry | slugify }}/">{{ entry }}</a>{% endfor %}
+            </li>
           </ul>
           {{content}}
         </article>
