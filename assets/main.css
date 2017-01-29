@@ -138,32 +138,13 @@ article img {
   width: 100%;
 }
 
-/* ===Articles with ".item" alternate between 3 different color accents=== */
 .item {
-  border-left: 5px solid rgb(0,0,0);
+  border-left: 5px solid rgb(85,98,112);
   margin: 2em auto;
-}
-.item:nth-of-type(3n+1) {
-  border-color: rgb(33,123,22);
-}
-.item:nth-of-type(3n+2) {
-  border-color: rgb(215,18,139);
-}
-.item:nth-of-type(3n+3) {
-  border-color: rgb(0,83,133);
 }
 
 .item h2 {
   margin-top: 0;
-}
-.item:nth-of-type(3n+1) h2 {
-  color: rgb(33,123,22);
-}
-.item:nth-of-type(3n+2) h2 {
-  color: rgb(215,18,139);
-}
-.item:nth-of-type(3n+3) h2 {
-  color: rgb(0,83,133);
 }
 
 /* ===Article sidebars===*/
@@ -287,14 +268,6 @@ nav a {
 }
 nav a:visited { color: rgb(255,255,255); }
 nav a:hover { color: rgb(212,212,212); }
-
-/* ===Highlighted nav items=== */
-nav li.highlight:nth-of-type(2n+1) a {
-  background-color: rgb(33,123,22);
-}
-nav li.highlight:nth-of-type(2n+2) a {
-  background-color: rgb(215,18,139);
-}
 
 /* ===Top navigation=== */
 #mobile-menu-toggle {
