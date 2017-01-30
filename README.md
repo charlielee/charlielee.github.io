@@ -7,7 +7,7 @@ My personal website [charlielee.uk](http://charlielee.uk/) which is hosted with 
 
 #### page
 
-The default layout. If an `img` is specified it will displayed behind the title.
+The default layout.
 
 ```yaml
 ---
@@ -19,7 +19,7 @@ Page contents.
 
 #### post
 
-Creates a page with the page's author and date of creation displayed. If an `img` is specified it will displayed behind the title.
+Creates a page with the page's author and date of creation displayed.
 
 ```yaml
 ---
@@ -38,8 +38,7 @@ Creates a page with a grid displaying recent posts.
 
 | Variable | Description |
 | --- | --- |
-| `img` | The image to use as the "hero" image |
-| `collection` | If specified, the pages in that will be displayed in the gallery instead of the most recent posts. Gallery items will also use the `img` and `external_url` specified on the page of the collection. |
+| `collection` | If specified, the pages in that will be displayed in the gallery instead of the most recent posts. Gallery items will also use the `gallery_img` and `external_url` specified on the page of the collection. |
 | `hero_text` | The text to display on top of the "hero" image |
 
 ```yaml
@@ -47,14 +46,13 @@ Creates a page with a grid displaying recent posts.
 title: Home
 layout: home
 collection: posts
-img: assets/image.png
 ---
 Hero image text.
 ```
 
 #### category
 
-Creates a page listing the posts in a specified `category`. If an `img` is specified it will displayed behind the title.
+Creates a page listing the posts in a specified `category`.
 
 ```yaml
 ---
@@ -79,6 +77,19 @@ layout: feed
 type: json
 ---
 ```
+
+### Hero headers
+
+Pages of layout `home` or `page` have a "hero" style header with the following variables:
+
+| Variable           | Default value      | Description |
+| ------------------ | ------------------ | ----------- |
+| `hero_cover`       | `false`            | A Boolean value of if the hero header should fill the viewpoint. |
+| `hero_title`       | `{{ page.title }}` | The title of the header. |
+| `hero_text`        | none               | The sub-title of the header. |
+| `hero_img`         | none               | The location of an image to use as the header's background. |
+| `hero_button_text` | none               | The text to display in the call to action button of the header. |
+| `hero_button_link` | none               | The link to navigate to when the header's call to action button is clicked. |
 
 ## Contributing
 
