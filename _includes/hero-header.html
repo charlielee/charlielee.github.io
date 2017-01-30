@@ -1,0 +1,13 @@
+<header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}'); {% if page.hero_cover == true %}height: 80vh;{% endif %}">
+  <div>
+    <header>
+      <h1>{% if page.hero_title %}{{ page.hero_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    {% if page.hero_text %}
+      <h2>{{ page.hero_text }}</h2>
+    {% endif %}
+    {% if page.hero_button_text %}
+      <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
+    {% endif %}
+    </header>
+  </div>
+</header>

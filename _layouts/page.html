@@ -6,19 +6,7 @@
     {% include header.html %}
 
     <main>
-      <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}'); {% if page.hero_text %}height: 80vh;{% endif %}">
-        <div>
-          <header>
-            <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-          {% if page.hero_text %}
-            <h2>{{ page.hero_text }}</h2>
-          {% endif %}
-          {% if page.hero_button_text %}
-            <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
-          {% endif %}
-          </header>
-        </div>
-      </header>
+      {% include hero-header.html %}
 
       <div>
         <article>

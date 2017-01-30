@@ -6,16 +6,7 @@
     {% include header.html %}
 
     <main>
-      <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}'); {% if page.hero_text %}height: 80vh;{% endif %}">
-        <div>
-          <header>
-            <h1>{{ page.hero_text }}</h1>
-            {% if page.hero_button_text %}
-            <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
-            {% endif %}
-          </header>
-        </div>
-      </header>
+      {% include hero-header.html %}
 
       <div id="gallery" class="gallery">
       {% if page.collection %}
