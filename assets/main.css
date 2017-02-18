@@ -209,6 +209,7 @@ main header h1 {
   box-sizing: border-box;
   display: flex;
   height: 10em;
+  max-height: calc(100vh - 47px);
   overflow: hidden;
   position: relative;
 }
@@ -446,6 +447,7 @@ footer li:last-child:after {
 
   .hero {
     height: 15em;
+    max-height: 30em;
   }
 
   /* 2.3. NAVIGATION
