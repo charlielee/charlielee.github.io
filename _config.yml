@@ -19,7 +19,7 @@ collections:
     permalink: /category/:path/
   feeds:
     output: true
-    permalink: /feed/:path/
+    permalink: /feed/:path
   projects:
     output: true
     permalink: /project/:path/
