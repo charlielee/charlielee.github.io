@@ -5,8 +5,8 @@ version: 0.7.4
 layout: page
 permalink: boats-animator/
 redirect_from:
-- boatsanimator
-- animator
+- boatsanimator/
+- animator/
 gallery_img: assets/boats-animator/screenshot-1-gallery-image.jpg
 excerpt: An open-source stop motion animation program created using NW.js.
 hero_cover: true
