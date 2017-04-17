@@ -19,6 +19,8 @@ hero_button_link: "#downloads"
 
 **Boats Animator** is a free and open-source stop motion animation program for Windows, macOS and Linux. Its intuitive interface caters to animators of all levels and offers many powerful features. The program has been open sourced under the GNU General Public License and contributions are welcome to the project's active [GitHub repository]({{ page.repository }}).
 
+![Screenshot of Boats Animator](../assets/boats-animator/screenshot-1-reduced.jpg)
+
 ## Features
 
 ### Instant Playback
