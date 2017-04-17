@@ -1,7 +1,7 @@
 ---
 title: Boats Animator
 repository: https://github.com/BoatsAreRockable/boats-animator
-version: 0.7.4
+version: 0.7.5
 layout: page
 permalink: boats-animator/
 redirect_from:
