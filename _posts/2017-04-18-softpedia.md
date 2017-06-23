@@ -5,4 +5,4 @@ layout: post
 categories:
   - Boats Animator
 ---
-[Boats Animator 0.7.4](https://github.com/BoatsAreRockable/boats-animator/releases/tag/v0.7.4) is now available. This is a minor release which removes the onion skinning button (onion skinning is now activated by simply moving the slider) and fixes a bug which meant the first frame captured was not stored in certain scenarios.
+Boats Animator has been added to [Softpedia's directory](http://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Boats-Animator.shtml)! If you enjoy using this program it would be greatly appreciated if you could leave a rating or comment on its listing.
