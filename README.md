@@ -1,4 +1,4 @@
-# boatsarerockable.github.io
+# charlielee.github.io
 
 My personal website [charlielee.uk](http://charlielee.uk/) which is hosted with GitHub pages and created using [Jekyll](https://jekyllrb.com/).
 ## Usage
@@ -93,7 +93,7 @@ Pages of layout `home` or `page` have a "hero" style header with the following v
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/BoatsAreRockable/boatsarerockable.github.io.
+Bug reports and pull requests are welcome on GitHub at https://github.com/charlielee/charlielee.github.io.
 
 ## License
 
