@@ -251,6 +251,19 @@ main header h1 {
 .hero img {
   width: 100%;
 }
+.hero-social-media {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+} 
+.hero-social-media li {
+  color: #fff;
+  font-size: 3em;
+  padding: 0 1em 0 0;
+}
+.hero-social-media li:first-of-type {
+  list-style: none;
+}
 
 /* 1.4. NAVIGATION
    -------------------------------- */
