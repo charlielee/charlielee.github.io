@@ -1,6 +1,7 @@
 # charlielee.github.io
 
 My personal website [charlielee.uk](http://charlielee.uk/) which is hosted with GitHub pages and created using [Jekyll](https://jekyllrb.com/).
+
 ## Usage
 
 ### Layouts
@@ -80,7 +81,7 @@ type: json
 
 ### Hero headers
 
-Pages of layout `home` or `page` have a "hero" style header with the following variables:
+Pages of layout `home` , `page`, `post` or `category` have a "hero" style header with the following variables:
 
 | Variable           | Default value      | Description |
 | ------------------ | ------------------ | ----------- |
@@ -88,8 +89,14 @@ Pages of layout `home` or `page` have a "hero" style header with the following v
 | `hero_title`       | `{{ page.title }}` | The title of the header. |
 | `hero_text`        | none               | The sub-title of the header. |
 | `hero_img`         | none               | The location of an image to use as the header's background. |
+| `hero_img_round` | none | The location of an image to be rounded and used in the header. |
 | `hero_button_text` | none               | The text to display in the call to action button of the header. |
 | `hero_button_link` | none               | The link to navigate to when the header's call to action button is clicked. |
+| `hero_social` |  `false` | Boolean value of whether social media icons should be displayed in the hero header. |
+| `hero_social_github` | none | Url of a related GitHub page. |
+| `hero_social_linkedin` | none | Url of a related LinkedIn page. |
+| `hero_social_email` | none | Url of a related email address. |
+| `hero_social_docs` | none | Url of related documentation. |
 
 ## Contributing
 
