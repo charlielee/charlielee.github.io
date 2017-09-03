@@ -14,6 +14,9 @@ hero_img: assets/boats-animator/screenshot-1-reduced.jpg
 hero_text: A free open-source stop motion animation program.
 hero_button_text: Download Boats Animator
 hero_button_link: "#downloads"
+hero_social: true
+hero_social_github: https://github.com/charlielee/boats-animator
+hero_social_docs: http://boatsanimator.readthedocs.io/
 ---
 ## Introduction
 
