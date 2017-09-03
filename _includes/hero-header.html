@@ -5,6 +5,9 @@
     {% if page.hero_text %}
       <h2>{{ page.hero_text }}</h2>
     {% endif %}
+        {% if page.layout == "post"" %}
+      <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
+    {% endif %}
     {% if page.hero_button_text %}
       <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
     {% endif %}

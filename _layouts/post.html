@@ -6,18 +6,13 @@
     {% include nav-header.html %}
 
     <main>
-      <header style="background-image: url('{{ site.baseurl }}/{{ page.img }}');">
-        <h1>
-          {% if page.title %} {{ page.title }}
-          {% else %} {{ site.title }}
-          {% endif %}
-        </h1>
-      </header>
+      {% include hero-header.html %}
 
       <div>
         <article>
+          {{content}}
+          <hr>
           <ul class="plainlist">
-            <li><span class="post-details-caption">Posted:</span> {{ page.date }}</li>
             <li><span class="post-details-caption">Author:</span> {{ page.author }}</li>
             <li>
               <span class="post-details-caption">Categories:</span>
@@ -25,7 +20,6 @@
                <a href="{{ site.baseurl }}/category/{{ entry | slugify }}/">{{ entry }}</a>{% endfor %}
             </li>
           </ul>
-          {{content}}
         </article>
       </div>
     </main>
