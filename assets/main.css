@@ -164,7 +164,7 @@ aside ul {
 
 /* ===Global header===*/
 #global-header {
-  background-color: rgb(0,0,0);
+  background-color: rgb(85,98,112);
   width: 100%;
   z-index: 2;
 }
@@ -241,6 +241,11 @@ main header h1 {
 .hero h2 {
   color: rgb(255,255,255);
   margin: 1em 0;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.hero h3 {
+  color: rgb(185,198,182);
+  font-weight: 300;
   text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .hero img {
@@ -431,11 +436,6 @@ footer li:last-child:after {
 
   /* 2.2. HEADERS
      -------------------------------- */
-
-  #global-header {
-    background-color: transparent;
-    position: absolute;
-  }
 
   #logo {
     font-size: 2em;
