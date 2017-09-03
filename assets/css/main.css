@@ -233,6 +233,7 @@ main header h1 {
   justify-content: center;
   padding: 0 10px;
   max-width: 800px;
+  width: 100%;
 }
 .hero-img-round {
   border-radius: 100px;
@@ -242,7 +243,6 @@ main header h1 {
 .hero header {
   background-color: transparent;
   max-width: 800px;
-  width: 100%;
 }
 .hero h1 {
   background-color: transparent;
