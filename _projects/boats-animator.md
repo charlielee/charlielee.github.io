@@ -53,14 +53,21 @@ hero_button_link: "#downloads"
   <li><a href="http://boatsanimator.readthedocs.io/en/latest/introduction/system-requirements/">System requirements</a></li>
 </ul>
 
-{% include signup-boats-animator-news.html %}
+## Recent News
+{% capture get_category %}{{ page.category }}{% endcapture %}
+{% for post in site.categories["Boats Animator"] limit:3 %}
+<article class="item">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h4>{{ post.date | date: "%-d %B %Y" }}</h4>
+  <p>{{ post.excerpt }}</p>
+</article>
+{% endfor %}
+
+<a href="/category/boats-animator" class="button">Older posts</a>
 
 ## Resources
 
 <ul class="plainlist">
   <li><a href="{{ page.repository }}">GitHub Repository</a></li>
-  <li><a href="{{ page.repository }}/releases">Downloads</a></li>
-  <li><a href="/category/boats-animator">News</a></li>
-  <li><a href="http://www.bricksinmotion.com/forums/topic/21891/">Bricks in Motion thread</a></li>
   <li><a href="http://boatsanimator.readthedocs.io/">Documentation</a></li>
 </ul>
