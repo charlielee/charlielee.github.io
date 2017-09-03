@@ -1,7 +1,15 @@
 <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}'); {% if page.hero_cover == true %}height: 100vh;{% endif %}">
   <div>
     <header>
-      <h1>{% if page.hero_title %}{{ page.hero_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    {% if page.layout == "category" %}
+      <h1>Category: {{ page.title }}</h1>
+    {% elsif page.hero_title %}
+      <h1>{{ page.hero_title }}</h1>
+    {% elsif page.title %}
+      <h1>{{ page.title }}</h1>
+    {% else %}
+      <h1{{ site.title }}</h1>
+    {% endif %}
     {% if page.hero_text %}
       <h2>{{ page.hero_text }}</h2>
     {% endif %}
