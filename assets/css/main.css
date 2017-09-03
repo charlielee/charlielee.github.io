@@ -1,5 +1,8 @@
 /*!
-  Main style sheet for charlie-lee-theme
+  Main style sheet for charlielee.uk
+  Copyright 2017 Charlie Lee
+  License: GPL-3.0
+  https://github.com/charlielee/charlielee.github.io
 */
 
 /* ================================
@@ -213,20 +216,32 @@ main header h1 {
   overflow: hidden;
   position: relative;
 }
-.hero div {
+.hero-flex-container {
   align-items: center;
   background-color: rgba(0,0,0,0.5);
   display: flex;
+  flex-direction: column;
   height: 100%;
   justify-content: center;
   position: absolute;
   top: 0;
   width: 100%;
 }
+.hero-flex-row {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  max-width: 800px;
+}
+.hero-img-round {
+  border-radius: 100px;
+  margin: 0 2em 0 0;
+  width: 25% !important;
+}
 .hero header {
   background-color: transparent;
   max-width: 800px;
-  padding: 0 10px;
   width: 100%;
 }
 .hero h1 {
@@ -253,7 +268,6 @@ main header h1 {
 }
 .hero-social-media {
   display: flex;
-  justify-content: center;
   padding: 0;
 } 
 .hero-social-media li {

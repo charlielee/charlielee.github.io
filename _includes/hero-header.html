@@ -1,37 +1,40 @@
 <header class="hero" style="background-image: url('{{ site.baseurl }}/{{ page.hero_img }}'); {% if page.hero_cover == true %}height: 100vh;{% endif %}">
-  <div>
-    <header>
-    {% if page.layout == "category" %}
-      <h1>Category: {{ page.title }}</h1>
-    {% elsif page.hero_title %}
-      <h1>{{ page.hero_title }}</h1>
-    {% elsif page.title %}
-      <h1>{{ page.title }}</h1>
-    {% else %}
-      <h1{{ site.title }}</h1>
-    {% endif %}
-    {% if page.hero_text %}
-      <h2>{{ page.hero_text }}</h2>
-    {% endif %}
-        {% if page.layout == "post"" %}
-      <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
-    {% endif %}
-    {% if page.hero_button_text %}
-      <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
-    {% endif %}
-    {% if page.hero_social %}
-      <ul class="hero-social-media">
-      {% if page.hero_social_github %}
-        <li><a href="{{ page.hero_social_github }}"><i class="fa fa-github"></i></a></li>
+  <div class="hero-flex-container">
+    <div class="hero-flex-row">
+      {% if page.hero_img_round %}<img class="hero-img-round" src="{{ page.hero_img_round }}">{% endif %}
+      <header>
+      {% if page.layout == "category" %}
+        <h1>Category: {{ page.title }}</h1>
+      {% elsif page.hero_title %}
+        <h1>{{ page.hero_title }}</h1>
+      {% elsif page.title %}
+        <h1>{{ page.title }}</h1>
+      {% else %}
+        <h1{{ site.title }}</h1>
       {% endif %}
-      {% if page.hero_social_linkedin %}
-        <li><a href="{{ page.hero_social_linkedin }}"><i class="fa fa-linkedin-square"></i></a></li>
+      {% if page.hero_text %}
+        <h2>{{ page.hero_text }}</h2>
       {% endif %}
-      {% if page.hero_social_email %}
-        <li><a href="{{ page.hero_social_email }}"><i class="fa fa-envelope"></i></a></li>
+          {% if page.layout == "post"" %}
+        <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
       {% endif %}
-      </ul>
-    {% endif %}
-    </header>
+      {% if page.hero_button_text %}
+        <a class="button" href="{{ page.hero_button_link }}">{{ page.hero_button_text }}</a>
+      {% endif %}
+      {% if page.hero_social %}
+        <ul class="hero-social-media">
+        {% if page.hero_social_github %}
+          <li><a href="{{ page.hero_social_github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+        {% endif %}
+        {% if page.hero_social_linkedin %}
+          <li><a href="{{ page.hero_social_linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+        {% endif %}
+        {% if page.hero_social_email %}
+          <li><a href="{{ page.hero_social_email }}"><i class="fa fa-envelope"></i></a></li>
+        {% endif %}
+        </ul>
+      {% endif %}
+      </header>
+    </div>
   </div>
 </header>
