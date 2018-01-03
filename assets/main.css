@@ -358,6 +358,13 @@ footer li:last-child:after {
   overflow: hidden;
   padding: 0;
   position: relative;
+  animation: showGalleryItem 1s ease-in;
+  /* animation-delay: 1s; */
+}
+
+@keyframes showGalleryItem {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .gallery h2 {
@@ -448,6 +455,12 @@ footer li:last-child:after {
   .hero {
     height: 15em;
     max-height: 30em;
+	animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+	0% { opacity: 0; }
+    100% { opacity: 1; }
   }
 
   /* 2.3. NAVIGATION
