@@ -262,6 +262,9 @@ aside ul {
 .hero-social-media li:first-of-type {
   list-style: none;
 }
+.hero-social-media li:last-of-type {
+  padding-right: 0;
+}
 .hero-social-media a {
   color: rgb(255,255,255);
 }
