@@ -233,18 +233,15 @@ aside ul {
   line-height: 1.2em;
   margin: 0;
   padding: 0;
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
   white-space: pre-wrap;
 }
 .hero h2 {
   color: rgb(255,255,255);
   margin: 1em 0;
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .hero h3 {
   color: rgb(185,198,182);
   font-weight: 300;
-  text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 .hero img {
   width: 100%;
@@ -298,7 +295,6 @@ nav a {
   display: block;
   padding: 20px;
   text-decoration: none;
-  text-shadow: 1px 1px rgb(40,40,40);
   white-space: nowrap;
 }
 nav a:visited { color: rgb(255,255,255); }
@@ -394,7 +390,6 @@ footer li:last-child:after {
   font-weight: 600;
   line-height: 1.7;
   padding: 7px 7px 7px 0;
-  text-shadow: 1px 1px rgb(40,40,40);
   vertical-align: top;
   white-space: pre-wrap;
 }
