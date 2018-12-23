@@ -34,13 +34,17 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 
 ![Onion skinning](../assets/boats-animator/onion-skin.png) This professional feature helps keep your animations smooth by showing you a translucent version of the last image captured. 
 
-### Open Source
+### High resolution and multi device support
 
-![GitHub logo](../assets/boats-animator/github-logo.png) New features are always being added to Boats Animator by people **just like you**. [Your suggestions]({{ page.repository }}/issues) and contributions improve Boats Animator for everyone.
+![Capture options](../assets/boats-animator/capture-options.png) Boats Animator supports high resolution frame capture, including 1080p and beyond! It's also simple to switch between multiple connected devices for multi-camera shots.
 
 ### For Windows, macOS and Linux
 
-![Cross platform](../assets/boats-animator/cross-platform.png) Boats Animator is built with [web technologies](http://nwjs.io/) which means it runs equally well on all major desktop operating systems. 
+![Cross platform](../assets/boats-animator/cross-platform.png) Boats Animator is built with [web technologies](http://nwjs.io/) which means it runs equally well on all major desktop operating systems.
+
+### Open Source
+
+![GitHub logo](../assets/boats-animator/github-logo.png) With an open-source code base, new features are always being added to Boats Animator by people **just like you**. [Your suggestions]({{ page.repository }}/issues) and contributions improve Boats Animator for everyone.
 
 ## Downloads
 
@@ -52,8 +56,10 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 #### Other
 
 <ul class="plainlist">
-  <li><a href="{{ page.repository }}/releases">Other downloads</a></li>
+  <li><a href="{{ page.repository }}/releases">Other downloads and release information</a></li>
   <li><a href="http://boatsanimator.readthedocs.io/en/latest/introduction/system-requirements/">System requirements</a></li>
+  <li><a href="http://boatsanimator.readthedocs.io/">Documentation</a></li>
+  <li><a href="{{ page.repository }}">GitHub Repository</a></li>
 </ul>
 
 ## Recent News
@@ -67,10 +73,3 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 {% endfor %}
 
 <a href="/category/boats-animator" class="button">Older posts</a>
-
-## Resources
-
-<ul class="plainlist">
-  <li><a href="{{ page.repository }}">GitHub Repository</a></li>
-  <li><a href="http://boatsanimator.readthedocs.io/">Documentation</a></li>
-</ul>
