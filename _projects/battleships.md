@@ -9,4 +9,4 @@ As part of an Internet of Things module at university, I created a multiplayer v
 
 This was a joint assignment with my friend and coursemate Ben Scott.
 
-![Battleships](../assets/img/battleships.jpg)
+![Battleships](../../assets/img/battleships.jpg)
