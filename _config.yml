@@ -23,6 +23,9 @@ collections:
   projects:
     output: true
     permalink: /project/:path/
+  projects-archive:
+    output: true
+    permalink: /archive/:path/
 
 # Build settings
 markdown: kramdown
