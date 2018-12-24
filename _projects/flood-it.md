@@ -1,9 +1,10 @@
 ---
-title: flood-it
+title: Flood It
 layout: page
-gallery_img: assets/img/flood-it.png
-excerpt: A clone of the Flood It puzzle game. I implemented this using Ruby for a university assignment.
+hero_img: ../assets/img/flood-it.png
+gallery_img: ../assets/img/flood-it.png
+excerpt: A recreation of the Flood It puzzle game.
 ---
-A clone of the Flood It puzzle game. I implemented this using Ruby for a university assignment.
+A recreation of the Flood It puzzle game. I implemented this using Ruby for a university assignment.
 
 [View on GitHub](https://github.com/BoatsAreRockable/flood-it)
