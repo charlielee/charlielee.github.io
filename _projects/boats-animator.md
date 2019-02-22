@@ -1,7 +1,7 @@
 ---
 title: Boats Animator
 repository: https://github.com/charlielee/boats-animator
-version: 0.8.1
+version: 0.8.2
 layout: page
 permalink: boats-animator/
 redirect_from:
