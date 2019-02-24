@@ -74,4 +74,4 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 </article>
 {% endfor %}
 
-<a href="/category/boats-animator" class="button">Older posts</a>
+<a href="/category/boats-animator" class="button">More posts</a>
