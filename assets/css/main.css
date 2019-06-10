@@ -433,7 +433,7 @@ footer li:last-child:after {
   article img {
     clear: both;
     float: right;
-    margin: 0 0 1em 1em;
+    margin: 0 0 2em 1em;
     max-width: 100%;
     width: auto;
   }
@@ -516,7 +516,7 @@ footer li:last-child:after {
   /* 3.1. PRIMARY
    -------------------------------- */
 
-  article h2, article h3 {
+   article h1, article h2, article h3 {
     clear: both;
   }
   article {
