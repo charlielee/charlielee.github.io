@@ -1,7 +1,7 @@
 ---
 title: Boats Animator
 repository: https://github.com/charlielee/boats-animator
-version: 0.9.0
+version: 0.9.1
 layout: page
 permalink: boats-animator/
 redirect_from:
@@ -50,8 +50,8 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 
 | Windows | macOS | Linux |
 | - | - | - |
-| [Boats Animator {{ page.version }} installer]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-Setup.exe) | [Boats Animator {{ page.version }} .zip file]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-osx-x64.zip) | [Boats Animator {{ page.version }} .tar.gz (64 bit)]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-linux-x64.tar.gz) |
-| [Boats Animator {{ page.version }} .zip file]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-win-ia32.zip) | | [Boats Animator {{ page.version }} .tar.gz (32 bit)]({{ page.repository }}/releases/download/v{{ page.version }}/Boats-Animator-{{ page.version }}-linux-ia32.tar.gz) |
+| [Boats Animator {{ page.version }} installer]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-setup.exe) | [Boats Animator {{ page.version }} .zip file]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-osx64.zip) | [Boats Animator {{ page.version }} .tar.gz (64 bit)]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux64.tar.gz) |
+| [Boats Animator {{ page.version }} .zip file]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win32.zip) | | [Boats Animator {{ page.version }} .tar.gz (32 bit)]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux32.tar.gz) |
 
 #### Reported Issues
 
