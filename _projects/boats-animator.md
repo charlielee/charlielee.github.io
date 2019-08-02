@@ -57,11 +57,6 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 
 * **Note for Ubuntu 18.04 users:** I have received reports of issues launching the program on Ubuntu 18.04. This is due to a missing dependency, please run "sudo apt-get install libgconf-2-4" and the program should launch.
 
-#### Reported Issues
-
-* **Note for Ubuntu 18.04 users:** I have received reports of issues launching the program on Ubuntu 18.04. This is due to a missing dependency, please run "sudo apt-get install libgconf-2-4" and the program should launch.
-* **Note for macOS 10.14 users:** the program seems to currently fail to launch on macOS 10.14. This issue is being [tracked on GitHub](https://github.com/charlielee/boats-animator/issues/248) and hopefully can be fixed soon.
-
 ### Other
 
 <ul class="plainlist">
