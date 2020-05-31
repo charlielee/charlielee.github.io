@@ -96,6 +96,12 @@ Here's what people think of Boats Animator! All of the photos below were taken b
 
 *"I love the onion skinning... ...I'm glad I found this as it's something that still being worked on!"*
 
+## Owen Garcia
+
+*"I make brickfilms (Lego stop motion movies) and Boats Animator is perfect for it. I love that it has onion skinning, grid overlay, and 1920x1080 support. Boats Animator is great and I think anyone, pro or beginner, should use this wonderful program."*
+
+![Garcia](../assets/boats-animator/user-submissions/garcia1.jpg)
+
 # Recent News
 {% capture get_category %}{{ page.category }}{% endcapture %}
 {% for post in site.categories["Boats Animator"] limit:3 %}
