@@ -1,6 +1,6 @@
 # charlielee.github.io
 
-My personal website [charlielee.uk](http://charlielee.uk/) which is hosted with GitHub pages and created using [Jekyll](https://jekyllrb.com/).
+My personal website [charlielee.uk](https://www.charlielee.uk/) which is hosted with GitHub pages and created using [Jekyll](https://jekyllrb.com/).
 
 ## Usage
 

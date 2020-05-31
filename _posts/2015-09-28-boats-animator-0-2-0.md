@@ -14,7 +14,7 @@ I am still working on getting Boats Animator into a fully useful state. So far t
   * Onion skinning
   * Download last frame captured
 
-![Boats Animator 0.2.0](http://charlielee.uk/assets/posts/boats-animator-0-2-0.png)
+![Boats Animator 0.2.0](https://www.charlielee.uk/assets/posts/boats-animator-0-2-0.png)
 
 However there is still a lot of work to do. The capture preview feature works but is certainly not in its final form and I am not happy with how the download last frame feature works.
 
