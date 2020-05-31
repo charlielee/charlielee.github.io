@@ -7,6 +7,8 @@ footer_text: "&copy; 2020 Charlie Lee"
 navigation:
 - text: Home
   url: /
+- text: Boats Animator
+  url: /boats-animator
 - text: Contact
   url: contact
 permalink: /:year/:month/:title/
