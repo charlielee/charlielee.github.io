@@ -1,28 +1,28 @@
 ---
 title: Boats Animator
 repository: https://github.com/charlielee/boats-animator
-version: 0.10.1
+version: 0.11.0
 layout: page
 permalink: boats-animator/
 redirect_from:
 - boatsanimator/
 - animator/
-gallery_img: assets/boats-animator/BA-0-9-0-screenshot-1.png
-excerpt: An open-source stop motion animation program created using NW.js.
+gallery_img: assets/boats-animator/ba-0-11-0-screenshot-1.png
+excerpt: A open-source stop motion animation program created using Electron.
 hero_cover: true
-hero_img: assets/boats-animator/BA-0-9-0-screenshot-1.png
+hero_img: assets/boats-animator/ba-0-11-0-screenshot-1.png
 hero_text: A free open-source stop motion animation program.
 hero_button_text: Download Boats Animator
 hero_button_link: "#downloads"
 hero_social: true
 hero_social_github: https://github.com/charlielee/boats-animator
-hero_social_docs: http://boatsanimator.readthedocs.io/
+hero_social_docs: https://boatsanimator.readthedocs.io/
 ---
 # Introduction
 
 **Boats Animator** is a free and open-source stop motion animation program for Windows, macOS and Linux. Its intuitive interface caters to animators of all levels and offers many powerful features. The program has been open sourced under the GNU General Public License and contributions are welcome to the project's active [GitHub repository]({{ page.repository }}).
 
-![Screenshot of Boats Animator](../assets/boats-animator/BA-0-9-0-screenshot-1.png)
+![Screenshot of Boats Animator](../assets/boats-animator/ba-0-11-0-screenshot-1.png)
 
 # Features
 
@@ -40,7 +40,7 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 
 ## For Windows, macOS and Linux
 
-![Cross platform](../assets/boats-animator/cross-platform.png) Boats Animator is built with [web technologies](http://nwjs.io/) which means it runs equally well on all major desktop operating systems.
+![Cross platform](../assets/boats-animator/cross-platform.png) Boats Animator is built with [web technologies](https://www.electronjs.org/) which means it runs equally well on all major desktop operating systems.
 
 ## Open Source
 
@@ -50,19 +50,14 @@ hero_social_docs: http://boatsanimator.readthedocs.io/
 
 | Windows | macOS | Linux |
 | - | - | - |
-| [Boats Animator {{ page.version }} installer (x64)]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-x64-setup.exe) | [Boats Animator {{ page.version }} .zip (x64)]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-osx-x64.zip) | [Boats Animator {{ page.version }} .tar.gz (x64)]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux-x64.tar.gz) |
-| [Boats Animator {{ page.version }} .zip (x64)]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-x64.zip) | | |
-
-#### Reported Issues
-
-* **Note for Ubuntu 18.04 users:** I have received reports of issues launching the program on Ubuntu 18.04. This is due to a missing dependency, please run "sudo apt-get install libgconf-2-4" and the program should launch.
+| [Boats Animator {{ page.version }} Setup]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-setup.exe) | [Boats Animator {{ page.version }} DMG]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-macos.dmg) | [Boats Animator {{ page.version }} deb]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux.deb) |
 
 ### Other
 
 <ul class="plainlist">
   <li><a href="{{ page.repository }}/releases">Other downloads and release information</a></li>
-  <li><a href="http://boatsanimator.readthedocs.io/en/latest/introduction/system-requirements/">System requirements</a></li>
-  <li><a href="http://boatsanimator.readthedocs.io/">Documentation</a></li>
+  <li><a href="https://boatsanimator.readthedocs.io/en/stable/introduction/system-requirements/">System requirements</a></li>
+  <li><a href="https://boatsanimator.readthedocs.io/">Documentation</a></li>
   <li><a href="{{ page.repository }}">GitHub Repository</a></li>
 </ul>
 
