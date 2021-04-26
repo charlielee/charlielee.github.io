@@ -1,0 +1,11 @@
+I"�<p><a href="https://github.com/charlielee/boats-animator/releases/tag/v0.11.0">Boats Animator 0.11.0</a> is now available. This is an important behind the scenes update which moves Boats Animator from NW.js to Electron.</p>
+
+<p>Some changes you may notice are:</p>
+
+<ul>
+  <li>Easier to install on macOS and Linux - you can now download .dmg and .deb packages</li>
+  <li>A more “native” feel - Boats Animator now looks and feels more like the other programs on your computer</li>
+  <li>New documentation - check out the revamped user guide for Boats Animator</li>
+  <li>Better security - all web links are now HTTPS and the app integrates better with macOS and Windows’ camera access settings</li>
+</ul>
+:ET

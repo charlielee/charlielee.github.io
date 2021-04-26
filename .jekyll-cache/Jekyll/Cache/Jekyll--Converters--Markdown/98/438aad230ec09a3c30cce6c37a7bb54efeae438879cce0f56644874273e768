@@ -1,0 +1,4 @@
+I"•<p><a href="https://github.com/BoatsAreRockable/boats-animator/releases/tag/v0.8.2">Boats Animator 0.8.2</a> is now available. This minor update adds an warning message if the current save directory already has frames in it. This is to ensure users do not accidentally overwrite frames.</p>
+
+<p>A future update will add a projects feature that should reduce the need for this warning to be displayed.</p>
+:ET

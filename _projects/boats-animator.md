@@ -17,6 +17,18 @@ hero_button_link: "#downloads"
 hero_social: true
 hero_social_github: https://github.com/charlielee/boats-animator
 hero_social_docs: https://boatsanimator.readthedocs.io/
+
+home_description: >
+  An open-source stop motion animation program created using Electron.
+  Home to an active community and over 20,000 downloads.
+home_image: assets/boats-animator/ba-0-11-0-screenshot-1.png
+home_call_to_action_text: Learn More
+home_call_to_action_icon: fa-arrow-right
+home_call_to_action_url: /boats-animator
+home_technologies:
+- Electron
+- JavaScript
+- Node.js
 ---
 # Introduction
 

@@ -1,0 +1,14 @@
+I"¤<p>Right now I am working towards getting Boats Animator into a usable state. I would like to implement most of the following features for the 1.0.0 release:</p>
+
+<ul>
+  <li>Interface to choose a webcam</li>
+  <li>Display of live feed of webcam</li>
+  <li>Capture frame from live feed and add to array</li>
+  <li>Display array as image sequence</li>
+  <li>Display last frame of array for onion skinning</li>
+  <li>Ability to delete unwanted frames via list and undo last frame button</li>
+  <li>Render image sequence to webM format via whammy.js</li>
+</ul>
+
+<p>The current time scale for completing this work is by the end of September although this is subject to change.</p>
+:ET

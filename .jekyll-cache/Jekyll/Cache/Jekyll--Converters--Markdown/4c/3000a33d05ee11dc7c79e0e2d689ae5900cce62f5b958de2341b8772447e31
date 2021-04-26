@@ -1,0 +1,27 @@
+I"W<p>I am still working on getting Boats Animator into a fully useful state. So far the following features have been implemented:</p>
+
+<ul>
+  <li>Frame capturing</li>
+  <li>Frame sequencing</li>
+  <li>Undo last frame captured</li>
+  <li>Preview captured frames (with the option to loop the preview and select playback frame rate)</li>
+  <li>Onion skinning</li>
+  <li>Download last frame captured</li>
+</ul>
+
+<p><img src="https://www.charlielee.uk/assets/posts/boats-animator-0-2-0.png" alt="Boats Animator 0.2.0" /></p>
+
+<p>However there is still a lot of work to do. The capture preview feature works but is certainly not in its final form and I am not happy with how the download last frame feature works.</p>
+
+<p>In addition 3 other major features that need to be added before any kind of public release are:</p>
+
+<ul>
+  <li>The ability to select a video source in a native interface (rather than that of the browser)</li>
+  <li>The ability to select video resolution</li>
+  <li>The ability to export the frames captured as a video file.</li>
+</ul>
+
+<p>I have no doubt that it will take me some time to figure out how to implement these features. Also I’ve attached a screenshot of the program just to prove I am actually working on something!</p>
+
+<p>Hopefully I can keep you informed about Boats Animator’s development a bit more frequently from now on…</p>
+:ET

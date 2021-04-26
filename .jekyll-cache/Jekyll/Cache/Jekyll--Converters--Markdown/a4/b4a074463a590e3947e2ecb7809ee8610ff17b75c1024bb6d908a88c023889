@@ -1,0 +1,10 @@
+I"<p>I continue to work on Boats Animator, however this is no longer alone as the project is now available for contribution on <a href="https://github.com/BoatsAreRockable/animator">GitHub</a>. Development has continued mostly to the back-end workings of the program which in the progress of being greatly cleaned up. This clean-up has come about from me being a JavaScript newcomer and while BA functioned fine there were a number of best practises that were not being followed. GitHub has allowed more experienced developers to bring these to my attention and in addition help implement new functionality to the program.</p>
+
+<p><img src="http://i.imgur.com/MsHvp6M.png" alt="Boats Animator v0.4.1" /></p>
+
+<p>There have also been a few visual changes to BA with the blue website style header being removed and a collapsible sidebar implemented. Captured frames are also now saved to a directory of the user’s choice and a default one can be set.</p>
+
+<p>The main things I hope to implement soon are the ability to change resolutions and change camera sources. Implementing these will finally make BA viable for use in a production environment.</p>
+
+<p>With the GitHub repository in place, I believe things are looking very positive for Boats Animator so stay tuned for the first beta release!</p>
+:ET

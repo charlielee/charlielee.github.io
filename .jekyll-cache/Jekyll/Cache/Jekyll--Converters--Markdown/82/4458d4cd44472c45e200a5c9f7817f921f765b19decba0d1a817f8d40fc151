@@ -1,0 +1,6 @@
+I"�<p>As part of an Internet of Things module at university, I created a multiplayer version of the classic game Battleships for the “unPhone”. The “unPhone” is a connected device powered by the ESP32 micro-controller and Adafruit kits. The ESP32 has an Arduino compatiblity layer, so Arduino C was used for development.</p>
+
+<p>This was a joint assignment with my friend and coursemate Ben Scott.</p>
+
+<p><img src="../../assets/img/battleships.jpg" alt="Battleships" /></p>
+:ET

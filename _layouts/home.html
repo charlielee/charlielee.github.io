@@ -8,26 +8,39 @@
     <main>
       {% include hero-header.html %}
 
-      <div id="gallery" class="gallery">
       {% if page.collection %}
-        {% assign items = site[page.collection] %}
+        {% assign items2 = site[page.collection] %}
       {% else %}
-        {% assign items = site.posts %}
+        {% assign items2 = site.posts %}
       {% endif %}
-      {% for entry in items %}
-        <article style="background-image: url('{{ entry.gallery_img }}');">
-          <h2>{{ entry.title }}</h2>
-          <p>{{ entry.excerpt }}</p>
-          <a href={% if entry.external_url %}"{{ entry.external_url }}" target="_blank"{% else %}"{{ entry.url }}"{% endif %}></a>
+
+      <section class="portfolio">
+      {% for entry in items2 %}
+        <article class="portfolio-item">
+          <section class="portfolio-description">
+            <h2>{{ entry.title }}</h2>
+            <p>{{ entry.home_description }}</p>
+
+            <p>
+            {% for technology in entry.home_technologies %}
+              <span class="badge">{{ technology }}</span>
+            {% endfor %}
+            </p>
+
+            {% if entry.home_call_to_action_url != null %}
+            <a href="{{ entry.home_call_to_action_url }}" class="button" target="{{ entry.home_call_to_action_url_target }}">
+              {{ entry.home_call_to_action_text }}
+              <i class="fa fa-fw {{ entry.home_call_to_action_icon }}"></i>
+            </a>
+            {% endif %}
+          </section>
+
+          <div class="portfolio-image-container">
+            <img class="portfolio-image" src="{{ entry.home_image}}">
+          </div>
         </article>
       {% endfor %}
-      </div>
-
-      <div class="dark">
-        <article>
-          {{ content }}
-        </article>
-      </div>
+      </section>
     </main>
 
     {% include footer.html %}
