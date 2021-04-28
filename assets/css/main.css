@@ -5,6 +5,20 @@
   https://github.com/charlielee/charlielee.github.io
 */
 
+:root {
+  --cl-black: rgb(0,0,0);
+  --cl-black-50: rgba(0,0,0,0.5);
+  --cl-blue: rgb(11,114,132);
+  --cl-blue-hover: rgb(4,81,94);
+  --cl-darkblue: #3E6A85;
+  --cl-grey: rgb(85,98,112);
+  --cl-orange: rgb(219,141,46);
+  --cl-purple: rgb(172,71,255);
+  --cl-white: rgb(255,255,255);
+  --cl-white-hover: rgb(200,200,200);
+  --cl-a: rgb(169,169,169);
+}
+
 /* ================================
    0.0. CSS DIRECTORY
    ================================
@@ -15,18 +29,16 @@
         1.3. HEADERS
         1.4. NAVIGATION
         1.5. FOOTER
-        1.6. HOMEPAGE GALLERY
+        1.6. PORTFOLIO
 
    2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT (min-width: 500px)
         2.1. PRIMARY
         2.2. HEADERS
         2.3. NAVIGATION
-        2.4. HOME PAGE GALLERY
 
    3.0. DESKTOP BREAKPOINT (min-width: 768px)
         3.1. PRIMARY
         3.2. HEADERS
-        3.3. HOMEPAGE GALLERY
 */
 
 /* ================================
@@ -37,8 +49,6 @@
    -------------------------------- */
 
 body {
-  /* font-family: Helvetica, Arial, sans-serif; */
-  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-family: 'Fira Sans', sans-serif;
 }
 p {
@@ -59,9 +69,11 @@ h2 {
 
 /* ===Links=== */
 a, a:visited {
-  color: rgb(11,114,132);
+  color: var(--cl-blue)
 }
-a:hover { color: rgb(4,81,94); }
+a:hover {
+  color: var(--cl-blue-hover);
+}
 
 /* ===Elements that are only displayed when no CSS is avaliable=== */
 .alt {
@@ -76,31 +88,28 @@ ul.plainlist {
 
 /* ===Buttons=== */
 .button {
-  /* background-color: rgb(0,171,202);
-  border: 2px solid rgb(0,171,202); */
-  background-color: #DB8D2E;
-  border: 2px solid #DB8D2E;
+  background-color: var(--cl-orange);
+  border: 2px solid var(--cl-orange);
   border-radius: 10px;
   border-radius: 0.5rem;
-  color: rgb(255,255,255);
+  color: var(--cl-white);
   display: inline-block;
   margin: 1rem 0;
-  /* padding: 15px; */
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
 .button:visited {
-  color: rgb(255,255,255);
+  color: var(--cl-white);
 }
 .button:hover {
   background-color: transparent;
-  color: #DB8D2E;
+  color: var(--cl-orange);
   cursor: pointer;
 }
 
 /* ===Forms===*/
 input, textarea {
-  border: 1px solid rgb(169,169,169);
+  border: 1px solid var(--cl-a);
   box-sizing: border-box;
   display: block;
   margin-bottom: 1em;
@@ -114,24 +123,16 @@ input[type="submit"] {
   width: auto;
 }
 
+.badge {
+  background-color: var(--cl-purple);
+  border-radius: 0.5rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.5rem;
+}
+
 /* 1.2. PRIMARY
    -------------------------------- */
 
-main div {
-  clear: both;
-  /* Prevents margin collapsing */
-  overflow: hidden;
-}
-.dark {
-  background-color: rgb(85,98,112);
-  color: rgb(255,255,255);
-}
-.notice {
-  background-color: rgb(215,18,139);
-  border-radius: 5px;
-  color: rgb(255,255,255);
-  padding: 10px 20px;
-}
 .hidden {
   display: none;
 }
@@ -142,13 +143,13 @@ article {
   padding: 0 10px;
 }
 article img {
-  box-shadow: 1px 0 10px 1px rgb(85,98,112);
+  box-shadow: 1px 0 10px 1px var(--cl-grey);
   margin-bottom: 1em;
   width: 100%;
 }
 
 .item {
-  border-left: 5px solid rgb(85,98,112);
+  border-left: 5px solid var(--cl-grey);
   margin: 2em auto;
 }
 
@@ -163,7 +164,7 @@ article img {
 /* ===Article sidebars===*/
 aside ul {
   padding: 0;
-  color: rgb(85,98,112);
+  color: var(--cl-grey);
   font-size: 0.9em;
   list-style: none;
 }
@@ -173,7 +174,7 @@ aside ul {
 
 /* ===Global header===*/
 #global-header {
-  background-color: rgb(85,98,112);
+  background-color: var(--cl-grey);
   width: 100%;
   z-index: 2;
 }
@@ -194,7 +195,7 @@ aside ul {
 /* ===Hero headers===*/
 .hero {
   align-items: center;
-  background-color: rgb(85,98,112);
+  background-color: var(--cl-grey);
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
@@ -207,7 +208,7 @@ aside ul {
 }
 .hero-flex-container {
   align-items: center;
-  background-color: rgba(0,0,0,0.5);
+  background-color: var(--cl-black-50);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -235,20 +236,20 @@ aside ul {
 }
 .hero h1 {
   background-color: transparent;
-  color: rgb(255,255,255);
+  color: var(--cl-white);
   line-height: 1.2em;
   margin: 0;
   padding: 0;
-  text-shadow: 1px 1px rgb(40 40 40);
+  text-shadow: 1px 1px var(--cl-black);
   white-space: pre-wrap;
 }
 .hero h2 {
-  color: rgb(255,255,255);
+  color: var(--cl-white);
   font-weight: 300;
   margin: 1em 0;
 }
 .hero h3 {
-  color: rgb(185,198,182);
+  color: var(--cl-orange);
   font-weight: 300;
 }
 .hero img {
@@ -258,7 +259,7 @@ aside ul {
   display: flex;
   flex-flow: wrap;
   padding: 0;
-} 
+}
 .hero-social-media li {
   font-size: 3em;
   list-style: none;
@@ -271,10 +272,10 @@ aside ul {
   padding-right: 0;
 }
 .hero-social-media a {
-  color: rgb(255,255,255);
+  color: var(--cl-white);
 }
 .hero-social-media a:hover {
-  color: rgb(185,198,182);
+  color: var(--cl-white-hover);
 }
 
 /* 1.4. NAVIGATION
@@ -299,20 +300,20 @@ nav li {
 }
 
 nav a {
-  color: rgb(255,255,255);
+  color: var(--cl-white);
   display: block;
   padding: 20px;
   text-decoration: none;
   white-space: nowrap;
 }
-nav a:visited { color: rgb(255,255,255); }
+nav a:visited { color: var(--cl-white); }
 nav a:hover {
-  color: rgb(200,200,200);
+  color: var(--cl-white-hover);
 }
 
 /* ===Top navigation=== */
 #mobile-menu-toggle {
-  color: rgb(255,255,255);
+  color: var(--cl-white);
   font-size: 1.5em;
   height: 30px;
   padding: 10px;
@@ -337,9 +338,9 @@ header nav ul.visible {
 
 footer {
   clear: both;
-  color: rgb(85,98,112);
+  color: var(--cl-grey);
   font-size: 90%;
-  padding: 20px;
+  margin: 2rem;
 }
 footer ul {
   margin: 0;
@@ -359,74 +360,38 @@ footer li:last-child:after {
   content: "";
 }
 
-/* 1.6. HOME PAGE GALLERY
+/* 1.6. PORTFOLIO
    -------------------------------- */
 
-.gallery {
+.portfolio-item {
+  background-color: var(--cl-grey);
+  border-radius: 1rem;
+  color: var(--cl-white);
+  column-gap: 1rem;
   display: flex;
-  flex-flow: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 10px auto 0 auto;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
-
-/* Each gallery item is a article */
-.gallery article {
-  background-color: rgb(0,0,0);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  border-color: rgb(85,98,112);
-  border-left-style: solid;
-  border-width: 5px;
-  box-shadow: inset -1px 0 50px 1px rgb(100,100,100);
-  box-sizing: border-box;
-  flex: 1 1 100%;
-  height: 200px;
-  margin: 0 0 10px 0;
-  overflow: hidden;
-  padding: 0;
-  position: relative;
+.portfolio-item:nth-child(even) {
+  background-color: var(--cl-darkblue);
 }
-
-.gallery h2 {
-  background-color: rgb(85,98,112);
-  box-sizing: border-box;
-  color: rgb(255,255,255);
-  display: inline;
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 1.7;
-  padding: 7px 7px 7px 0;
-  vertical-align: top;
-  white-space: pre-wrap;
+.portfolio-description {
+  flex: 1;
 }
-
-.gallery p {
-  background-color: rgba(255,255,255,0.95);
-  bottom: 0;
-  box-sizing: border-box;
+.portfolio-description h2 {
+  margin: 1rem 0;
+  min-width: 300px;
+}
+.portfolio-image-container {
+  flex: 1;
+  margin: 1rem 0;
+  min-width: 300px;
+}
+.portfolio-image {
+  border-radius: 0.5rem;
+  float: initial;
   margin: 0;
-  padding: 1em;
-  position: absolute;
-  width: 100%;
-}
-
-.gallery a {
-  background-color: rgb(255,255,255);
-  color: rgb(255,255,255);
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-.gallery a:hover {
-  opacity: 0.10;
-}
-.gallery a:active {
-  opacity: 0.20;
 }
 
 /* ================================
@@ -449,7 +414,7 @@ footer li:last-child:after {
   aside li {
     display: inline-block;
   }
- aside li:after {
+  aside li:after {
     content: "|";
     padding: 0 7px;
   }
@@ -505,14 +470,6 @@ footer li:last-child:after {
   #mobile-menu-toggle {
     display: none;
   }
-
-  /* 2.4. HOME PAGE GALLERY
-   -------------------------------- */
-
-  .gallery article {
-    /* Displays two columns in the gallery */
-    max-width: 49%;
-  }
 }
 
 /* ================================
@@ -561,49 +518,4 @@ footer li:last-child:after {
   .hero h1 {
     font-size: 3.5em;
   }
-
-  /* 3.3. HOME PAGE GALLERY
-   -------------------------------- */
-
-  .gallery {
-    max-width: 1200px;
-  }
-}
-
-.portfolio-item {
-  background-color: rgb(85,98,112);
-  border-radius: 1rem;
-  color: #fff;
-  display: flex;
-  margin: 2rem auto;
-  padding: 1rem;
-}
-
-.portfolio-item:nth-child(even) {
-  background-color: #3E6A85;
-}
-
-.portfolio-description {
-  flex: 1;
-}
-
-.portfolio-description h2 {
-  margin: 0 0 1rem 0;
-}
-
-.portfolio-image-container {
-  flex: 1;
-  margin-left: 1rem;
-}
-
-.portfolio-image {
-  border-radius: 0.5rem;
-  float: initial;
-  margin: 0;
-}
-
-.badge {
-  background-color: rgb(215, 18, 139);
-  border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem;
 }

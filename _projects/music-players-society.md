@@ -2,8 +2,6 @@
 title: Music Players' Society
 layout: page
 hero_img: ../assets/img/music-players-society-min.png
-gallery_img: ../assets/img/music-players-society-min.png
-excerpt: I created a WordPress powered website for a University society.
 
 home_description: >
   I created a WordPress powered website for a University society.

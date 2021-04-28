@@ -7,8 +7,7 @@ permalink: boats-animator/
 redirect_from:
 - boatsanimator/
 - animator/
-gallery_img: assets/boats-animator/ba-0-11-0-screenshot-1.png
-excerpt: A open-source stop motion animation program created using Electron.
+
 hero_cover: true
 hero_img: assets/boats-animator/ba-0-11-0-screenshot-1.png
 hero_text: A free open-source stop motion animation program.

@@ -2,8 +2,6 @@
 title: MP3 Stream Recorder
 layout: page
 hero_img: ../assets/img/radio.png
-gallery_img: ../assets/img/radio.png
-excerpt: A small Node program for recording an MP3 stream to a file.
 
 home_description: >
   Command line tool for recording an MP3 stream to a file.

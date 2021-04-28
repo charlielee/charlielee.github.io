@@ -1,9 +1,7 @@
 ---
 title: NW.js Packager
 layout: page
-hero_img: ../assets/img/music-players-society-min.png
-gallery_img: ../assets/img/music-players-society-min.png
-excerpt: I created a WordPress powered website for a University society.
+hero_img: ../assets/img/nwjs-packager.png
 
 home_description: >
   Build your NW.js app and generate archives, packages, setup files and more!
