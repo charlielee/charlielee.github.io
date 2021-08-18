@@ -5,12 +5,12 @@ description: >
   Charlie Lee is a software developer and the creator of Boats Animator (no I didn't invent Litecoin).
 footer_text: "&copy; 2021 Charlie Lee"
 navigation:
-- text: Home
-  url: /
-- text: Boats Animator
-  url: /boats-animator
-- text: Contact
-  url: contact
+  - text: Home
+    url: /
+  - text: Boats Animator
+    url: /boats-animator
+  - text: Contact
+    url: contact
 permalink: /:year/:month/:title/
 
 # Collections
@@ -34,6 +34,7 @@ collections:
   projects-archive:
     output: true
     permalink: /archive/:path/
+  carousel_slides:
 
 # Build settings
 markdown: kramdown
