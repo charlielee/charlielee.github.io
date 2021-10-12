@@ -6,17 +6,17 @@
 */
 
 :root {
-  --cl-black: rgb(0,0,0);
-  --cl-black-50: rgba(0,0,0,0.5);
-  --cl-blue: rgb(11,114,132);
-  --cl-blue-hover: rgb(4,81,94);
-  --cl-darkblue: #3E6A85;
-  --cl-grey: rgb(85,98,112);
-  --cl-orange: rgb(219,141,46);
-  --cl-purple: rgb(172,71,255);
-  --cl-white: rgb(255,255,255);
-  --cl-white-hover: rgb(200,200,200);
-  --cl-a: rgb(169,169,169);
+  --cl-black: rgb(0, 0, 0);
+  --cl-black-50: rgba(0, 0, 0, 0.5);
+  --cl-blue: rgb(11, 114, 132);
+  --cl-blue-hover: rgb(4, 81, 94);
+  --cl-darkblue: #3e6a85;
+  --cl-grey: rgb(85, 98, 112);
+  --cl-orange: rgb(219, 141, 46);
+  --cl-purple: rgb(172, 71, 255);
+  --cl-white: rgb(255, 255, 255);
+  --cl-white-hover: rgb(200, 200, 200);
+  --cl-a: rgb(169, 169, 169);
 }
 
 /* ================================
@@ -30,6 +30,7 @@
         1.4. NAVIGATION
         1.5. FOOTER
         1.6. PORTFOLIO
+        1.7. CAROUSEL
 
    2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT (min-width: 500px)
         2.1. PRIMARY
@@ -48,8 +49,17 @@
 /* 1.1. GENERAL
    -------------------------------- */
 
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 p {
   line-height: 1.3em;
@@ -68,8 +78,9 @@ h2 {
 }
 
 /* ===Links=== */
-a, a:visited {
-  color: var(--cl-blue)
+a,
+a:visited {
+  color: var(--cl-blue);
 }
 a:hover {
   color: var(--cl-blue-hover);
@@ -108,9 +119,9 @@ ul.plainlist {
 }
 
 /* ===Forms===*/
-input, textarea {
+input,
+textarea {
   border: 1px solid var(--cl-a);
-  box-sizing: border-box;
   display: block;
   margin-bottom: 1em;
   padding: 10px;
@@ -198,7 +209,6 @@ aside ul {
   background-color: var(--cl-grey);
   background-position: center;
   background-size: cover;
-  box-sizing: border-box;
   display: flex;
   height: 10em;
   margin: 0 auto;
@@ -306,7 +316,9 @@ nav a {
   text-decoration: none;
   white-space: nowrap;
 }
-nav a:visited { color: var(--cl-white); }
+nav a:visited {
+  color: var(--cl-white);
+}
 nav a:hover {
   color: var(--cl-white-hover);
 }
@@ -324,9 +336,9 @@ nav a:hover {
   width: 30px;
 }
 #mobile-menu-toggle:hover {
-  background-color: rgb(30,30,30);
+  background-color: rgb(30, 30, 30);
   text-decoration: none;
-  color: rgb(200,200,200);
+  color: rgb(200, 200, 200);
   cursor: pointer;
 }
 header nav ul.visible {
@@ -394,12 +406,35 @@ footer li:last-child:after {
   margin: 0;
 }
 
+/* 1.7. CAROUSEL
+   -------------------------------- */
+
+.carousel-container {
+  height: 400px;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.carousel-slide h2 {
+  margin: 1rem 0;
+}
+
 /* ================================
    2.0. SMARTPHONE LANDSCAPE/SMALL TABLET BREAKPOINT
    ================================ */
 
 @media only screen and (min-width: 500px) {
-
   /* 2.1. PRIMARY
      -------------------------------- */
 
@@ -441,7 +476,7 @@ footer li:last-child:after {
      -------------------------------- */
 
   nav {
-     display: flex;
+    display: flex;
     /* Moves header contents onto one row */
     flex-flow: row wrap;
     max-width: 820px;
@@ -449,7 +484,8 @@ footer li:last-child:after {
   nav a {
     padding: 10px;
   }
-  nav ul, header nav ul.visible {
+  nav ul,
+  header nav ul.visible {
     display: block;
     flex: 1;
     text-align: right;
@@ -477,11 +513,12 @@ footer li:last-child:after {
    ================================ */
 
 @media only screen and (min-width: 768px) {
-
   /* 3.1. PRIMARY
    -------------------------------- */
 
-   article h1, article h2, article h3 {
+  article h1,
+  article h2,
+  article h3 {
     clear: both;
   }
   article {
@@ -492,7 +529,8 @@ footer li:last-child:after {
     display: flex;
     flex-wrap: wrap;
   }
-  .with-sidebar section:last-child, .with-sidebar aside:last-child {
+  .with-sidebar section:last-child,
+  .with-sidebar aside:last-child {
     padding-left: 20px;
   }
 

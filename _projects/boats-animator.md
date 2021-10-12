@@ -77,21 +77,7 @@ home_technologies:
 
 Here's what people think of Boats Animator! All of the photos below were taken by the users themselves.
 
-{% for slide in site.carousel_slides %}
-
-<h2>{{ slide.title }}</h2>
-
-_"{{ slide.content }}"_
-
-{% if slide.link %}
-[{{ slide.link }}]({{ slide.link }})
-{% endif %}
-
-{% if slide.image %}
-![{{ slide.image-alt }}]({{ slide.image }})
-{% endif %}
-
-{% endfor %}
+{% include carousel-slides.md %}
 
 # Recent News
 
