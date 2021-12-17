@@ -29,35 +29,37 @@ home_technologies:
 - JavaScript
 - Node.js
 ---
-# Introduction
+## Introduction
 
-**Boats Animator** is a free and open-source stop motion animation program for Windows, macOS and Linux. Its intuitive interface caters to animators of all levels and offers many powerful features. The program has been open sourced under the GNU General Public License and contributions are welcome to the project's active [GitHub repository]({{ page.repository }}).
+**Boats Animator** is a free stop motion animation program, that rocks! It is available for Windows, macOS and Linux. Its intuitive interface caters to animators of all levels and offers many powerful features.
 
 ![Screenshot of Boats Animator](../assets/boats-animator/ba-0-11-0-screenshot-1.png)
 
-# Features
+## Features
 
-## Instant Playback
+### High Resolution Capture
 
-![Playback](../assets/boats-animator/playback.png) Instantly preview your captured frames with Boats Animator. Unlike other programs, there is no need to wait for the frames to process.
+![Capture options](../assets/boats-animator/capture-options.png) Capture high resolution images from webcams, including 1080p and beyond!
 
-## Onion Skinning
+### Instant Playback
 
-![Onion skinning](../assets/boats-animator/onion-skin.png) This professional feature helps keep your animations smooth by showing you a translucent version of the last image captured.
+![Playback](../assets/boats-animator/playback.png) Instantly preview your captured frames. There's no need to wait for them to process.
 
-## High resolution and multi device support
+### Handy Guides
 
-![Capture options](../assets/boats-animator/capture-options.png) Boats Animator supports high resolution frame capture, including 1080p and beyond! It's also simple to switch between multiple connected devices for multi-camera shots.
+![Onion skinning](../assets/boats-animator/onion-skin.png) Simplify creating your animation with tools such as onion skinning, gridlines and aspect ratio masks.
 
-## For Windows, macOS and Linux
+### Export Video
 
-![Cross platform](../assets/boats-animator/cross-platform.png) Boats Animator is built with [web technologies](https://www.electronjs.org/) which means it runs equally well on all major desktop operating systems.
+Share your animation by exporting it to a video file or "conforming" the image files for use in video editing software.
 
-## Open Source
+## Community
 
-![GitHub logo](../assets/boats-animator/github-logo.png) With an open-source code base, new features are always being added to Boats Animator by people **just like you**. [Your suggestions]({{ page.repository }}/issues) and contributions improve Boats Animator for everyone.
+![GitHub logo](../assets/boats-animator/github-logo.png) The program has been open sourced under the GNU General Public License and contributions are welcomed to the [GitHub repository]({{ page.repository }}).
 
-# Downloads
+You can also help improve Boats Animator by joining the community [Discord Server](https://discord.com/invite/SUPWr8fDWN) or [leaving the author a tip](https://ko-fi.com/charlielee)! 
+
+## Downloads
 
 | Windows | macOS | Linux |
 | - | - | - |
@@ -69,14 +71,13 @@ home_technologies:
   <li><a href="{{ page.repository }}/releases">Other downloads and release information</a></li>
   <li><a href="https://boatsanimator.readthedocs.io/en/stable/introduction/system-requirements/">System requirements</a></li>
   <li><a href="https://boatsanimator.readthedocs.io/">Documentation</a></li>
-  <li><a href="{{ page.repository }}">GitHub Repository</a></li>
 </ul>
 
-# User Testimonials
+## User Testimonials
 
-Here's what people think of Boats Animator! All of the photos below were taken by the users themselves.
+Here's what people think of Boats Animator. [Get in touch](https://www.charlielee.uk/contact/) if you want to add your story!
 
-## Bert Loos
+### Bert Loos
 
 [https://www.youtube.com/tehbertl](https://www.youtube.com/tehbertl)
 
@@ -84,7 +85,7 @@ Here's what people think of Boats Animator! All of the photos below were taken b
 
 ![BertL](../assets/boats-animator/user-submissions/bertl1.jpg)
 
-## Shelby Pritchard
+### Shelby Pritchard
 
 [https://www.youtube.com/user/pritchardstudios](https://www.youtube.com/user/pritchardstudios)
 
@@ -92,23 +93,23 @@ Here's what people think of Boats Animator! All of the photos below were taken b
 
 ![Pritchard](../assets/boats-animator/user-submissions/pritchard1.jpg)
 
-## Catalin Chelariu - Softpedia
+### Catalin Chelariu - Softpedia
 
 [https://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Boats-Animator.shtml](https://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Boats-Animator.shtml)
 
 *"On the whole, this program looks very promising, and we were mostly impressed by its intuitive, novice-friendly design. Once the missing features are implemented, this will be an excellent alternative to overly complex or expensive stop-motion animation tools."*
 
-## Ryan
+### Ryan
 
 *"I love the onion skinning... ...I'm glad I found this as it's something that still being worked on!"*
 
-## Owen Garcia
+### Owen Garcia
 
 *"I make brickfilms (Lego stop motion movies) and Boats Animator is perfect for it. I love that it has onion skinning, grid overlay, and 1920x1080 support. Boats Animator is great and I think anyone, pro or beginner, should use this wonderful program."*
 
 ![Garcia](../assets/boats-animator/user-submissions/garcia1.jpg)
 
-# Recent News
+## Recent News
 {% capture get_category %}{{ page.category }}{% endcapture %}
 {% for post in site.categories["Boats Animator"] limit:3 %}
 <article class="item">
