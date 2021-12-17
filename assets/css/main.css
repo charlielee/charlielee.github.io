@@ -444,7 +444,7 @@ footer li:last-child:after {
      display: flex;
     /* Moves header contents onto one row */
     flex-flow: row wrap;
-    max-width: 820px;
+    max-width: 1300px;
   }
   nav a {
     padding: 10px;
