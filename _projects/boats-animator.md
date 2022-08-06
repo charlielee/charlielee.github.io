@@ -59,7 +59,7 @@ Share your animation by exporting it to a video file or "conforming" the image f
 
 You can also help improve Boats Animator by joining the community [Discord Server](https://discord.com/invite/SUPWr8fDWN) or [leaving the author a tip](https://ko-fi.com/charlielee)!
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', 'db8d2e', 'Q5Q86RK4Y');kofiwidget2.draw();</script> s>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#db8d2e', 'Q5Q86RK4Y');kofiwidget2.draw();</script>
 
 ## Downloads
 

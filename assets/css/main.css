@@ -67,6 +67,11 @@ h2 {
   margin: 1.5em 0;
 }
 
+/* Fix Ko-fi button getting default image styles */
+.kofiimg {
+  all: inherit;
+}
+
 /* ===Links=== */
 a, a:visited {
   color: var(--cl-blue)
