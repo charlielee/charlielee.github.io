@@ -57,7 +57,9 @@ Share your animation by exporting it to a video file or "conforming" the image f
 
 ![GitHub logo](../assets/boats-animator/github-logo.png) The program has been open sourced under the GNU General Public License and contributions are welcomed to the [GitHub repository]({{ page.repository }}).
 
-You can also help improve Boats Animator by joining the community [Discord Server](https://discord.com/invite/SUPWr8fDWN) or [leaving the author a tip](https://ko-fi.com/charlielee)! 
+You can also help improve Boats Animator by joining the community [Discord Server](https://discord.com/invite/SUPWr8fDWN) or [leaving the author a tip](https://ko-fi.com/charlielee)!
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', 'db8d2e', 'Q5Q86RK4Y');kofiwidget2.draw();</script> s>
 
 ## Downloads
 
