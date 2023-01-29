@@ -23,7 +23,7 @@ home_description: >
   Home to an active community and over 20,000 downloads.
 home_image: assets/boats-animator/ba-0-11-0-screenshot-1.png
 home_call_to_action_text: Learn More
-home_call_to_action_icon: fa-arrow-right
+home_call_to_action_icon: fa-solid fa-arrow-right
 home_call_to_action_url: /boats-animator
 home_technologies:
 - Electron

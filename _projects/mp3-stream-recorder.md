@@ -13,7 +13,7 @@ home_technologies:
 - Internet of Things
 - IFTTT
 home_call_to_action_text: GitHub
-home_call_to_action_icon: fa-github
+home_call_to_action_icon: fa-brands fa-github
 home_call_to_action_url: https://github.com/charlielee/mp3-stream-recorder
 home_call_to_action_url_target: _blank
 ---

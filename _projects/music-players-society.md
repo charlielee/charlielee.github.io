@@ -12,7 +12,7 @@ home_technologies:
 - CSS
 - MySQL
 home_call_to_action_text: Visit Website
-home_call_to_action_icon: fa-globe
+home_call_to_action_icon: fa-solid fa-globe
 home_call_to_action_url: https://web.archive.org/web/20190529170036/https://musicplayers.union.shef.ac.uk/
 home_call_to_action_url_target: _blank
 ---
