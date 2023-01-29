@@ -16,6 +16,7 @@ hero_button_link: "#downloads"
 hero_social: true
 hero_social_github: https://github.com/charlielee/boats-animator
 hero_social_docs: https://help.boatsanimator.com/
+hero_social_discord: http://discord.boatsanimator.com/
 
 home_description: >
   An open-source stop motion animation program created using Electron.

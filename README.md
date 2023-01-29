@@ -97,6 +97,7 @@ Pages of layout `home` , `page`, `post` or `category` have a "hero" style header
 | `hero_social_linkedin` | none               | Url of a related LinkedIn page.                                                     |
 | `hero_social_email`    | none               | Url of a related email address.                                                     |
 | `hero_social_docs`     | none               | Url of related documentation.                                                       |
+| `hero_social_discord`  | none               | Url of a related Discord server invite.                                             |
 
 ## Contributing
 
