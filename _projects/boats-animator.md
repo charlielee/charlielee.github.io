@@ -15,7 +15,7 @@ hero_button_text: Download Boats Animator
 hero_button_link: "#downloads"
 hero_social: true
 hero_social_github: https://github.com/charlielee/boats-animator
-hero_social_docs: https://boatsanimator.readthedocs.io/
+hero_social_docs: https://help.boatsanimator.com/
 
 home_description: >
   An open-source stop motion animation program created using Electron.
@@ -65,14 +65,14 @@ You can also help improve Boats Animator by joining the community [Discord Serve
 
 | Windows | macOS | Linux |
 | - | - | - |
-| [Boats Animator {{ page.version }} Setup.exe]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-setup.exe) | [Boats Animator {{ page.version }}.dmg]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-macos.dmg) | [Boats Animator {{ page.version }}.deb]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux.deb) |
+| [Boats Animator {{ page.version }} Setup.exe]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-setup.exe) | [Boats Animator {{ page.version }}.dmg]({{ pSage.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-macos.dmg) | [Boats Animator {{ page.version }}.deb]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux.deb) |
 
 ### Other
 
 <ul class="plainlist">
   <li><a href="{{ page.repository }}/releases">Other downloads and release information</a></li>
-  <li><a href="https://boatsanimator.readthedocs.io/en/stable/introduction/system-requirements/">System requirements</a></li>
-  <li><a href="https://boatsanimator.readthedocs.io/">Documentation</a></li>
+  <li><a href="https://help.boatsanimator.com/en/stable/introduction/system-requirements/">System requirements</a></li>
+  <li><a href="https://help.boatsanimator.com/">Documentation</a></li>
 </ul>
 
 ## User Testimonials
