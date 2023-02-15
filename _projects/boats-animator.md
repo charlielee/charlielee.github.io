@@ -66,7 +66,7 @@ You can also help improve Boats Animator by joining the community [Discord Serve
 
 | Windows | macOS | Linux |
 | - | - | - |
-| [Boats Animator {{ page.version }} Setup.exe]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-setup.exe) | [Boats Animator {{ page.version }}.dmg]({{ pSage.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-macos.dmg) | [Boats Animator {{ page.version }}.deb]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux.deb) |
+| [Boats Animator {{ page.version }} Setup.exe]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-win-setup.exe) | [Boats Animator {{ page.version }}.dmg]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-macos.dmg) | [Boats Animator {{ page.version }}.deb]({{ page.repository }}/releases/download/v{{ page.version }}/boats-animator-{{ page.version }}-linux.deb) |
 
 ### Other
 
