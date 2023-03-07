@@ -1,7 +1,7 @@
 ---
 title: Boats Animator
 repository: https://github.com/charlielee/boats-animator
-version: 0.11.1
+version: 0.13.0
 layout: page
 permalink: boats-animator/
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 - animator/
 
 hero_cover: true
-hero_img: assets/boats-animator/ba-0-11-0-screenshot-1.png
+hero_img: assets/boats-animator/ba-0-13-0-screenshot-1.png
 hero_text: A free open-source stop motion animation program.
 hero_button_text: Download Boats Animator
 hero_button_link: "#downloads"
@@ -20,8 +20,8 @@ hero_social_discord: http://discord.boatsanimator.com/
 
 home_description: >
   An open-source stop motion animation program created using Electron.
-  Home to an active community and over 20,000 downloads.
-home_image: assets/boats-animator/ba-0-11-0-screenshot-1.png
+  Home to an active community and over 30,000 downloads.
+home_image: assets/boats-animator/ba-0-13-0-screenshot-1.png
 home_call_to_action_text: Learn More
 home_call_to_action_icon: fa-solid fa-arrow-right
 home_call_to_action_url: /boats-animator
@@ -34,7 +34,7 @@ home_technologies:
 
 **Boats Animator** is a free stop motion animation program, that rocks! It is available for Windows, macOS and Linux. Its intuitive interface caters to animators of all levels and offers many powerful features.
 
-![Screenshot of Boats Animator](../assets/boats-animator/ba-0-11-0-screenshot-1.png)
+![Screenshot of Boats Animator](../assets/boats-animator/ba-0-13-0-screenshot-1.png)
 
 ## Features
 
