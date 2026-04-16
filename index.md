@@ -4,7 +4,7 @@ layout: home
 collection: projects
 hero_cover: true
 hero_title: Hi, I'm Charlie
-hero_text: "Software Developer at <a href='https://www.coreplan.io/' target='_blank'>CorePlan</a><br>Computer Science Graduate<br>Clarinet & Saxophone Enthusiast"
+hero_text: "Software Developer at <a href='https://www.coreplan.io/' target='_blank'>CorePlan</a><br>Clarinet & Saxophone Enthusiast<br>Living in Sydney, Australia"
 hero_img_round: assets/img/headshot-2023.jpg
 hero_img: assets/img/concert-band.jpg
 hero_social: true
